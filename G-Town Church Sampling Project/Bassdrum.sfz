@@ -1,0 +1,26 @@
+<control>
+default_path=samples/Bassdrum/
+
+<global> amp_veltrack=98.5
+
+<group> group_label=Bass Drum Hit  lokey=c3  hikey=d3  loop_mode=one_shot  pitch_keytrack=0
+<region> sample=processed bassdrum hit 01.wav  lovel=1    hivel=23
+<region> sample=processed bassdrum hit 02.wav  lovel=24   hivel=31
+<region> sample=processed bassdrum hit 03.wav  lovel=32   hivel=39
+<region> sample=processed bassdrum hit 04.wav  lovel=40   hivel=47
+<region> sample=processed bassdrum hit 05.wav  lovel=48   hivel=55
+<region> sample=processed bassdrum hit 06.wav  lovel=56   hivel=63
+<region> sample=processed bassdrum hit 07.wav  lovel=64   hivel=71
+<region> sample=processed bassdrum hit 08.wav  lovel=72   hivel=79
+<region> sample=processed bassdrum hit 09.wav  lovel=80   hivel=87
+<region> sample=processed bassdrum hit 10.wav  lovel=88   hivel=95
+<region> sample=processed bassdrum hit 11.wav  lovel=96   hivel=103
+<region> sample=processed bassdrum hit 12.wav  lovel=104  hivel=111
+<region> sample=processed bassdrum hit 13.wav  lovel=112  hivel=119
+<region> sample=processed bassdrum hit 14.wav  lovel=120  hivel=127
+
+
+<group> group_label=Bass Drum Rolls  pitch_keytrack=0  ampeg_release=1
+<region> sample=processed bassdrum roll 01.wav  key=f3
+<region> sample=processed bassdrum roll 02.wav  key=g3
+<region> sample=processed bassdrum roll 03.wav  key=a3

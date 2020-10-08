@@ -1,0 +1,79 @@
+<control>
+default_path=samples/Cymbals/
+
+// Crash 16
+
+<group> group_label=Crash 16  ampeg_release=5  lokey=c3  hikey=c#3  pitch_keytrack=0
+<region> sample=crash 16 02.wav  lovel=1   hivel=24  volume=-4
+<region> sample=crash 16 01.wav  lovel=25  hivel=41  volume=-3
+<region> sample=crash 16 03.wav  lovel=42  hivel=58  volume=-2
+<region> sample=crash 16 04.wav  lovel=59  hivel=75
+<region> sample=crash 16 05.wav  lovel=76  hivel=92
+<region> sample=crash 16 06.wav  lovel=93  hivel=108
+<region> sample=crash 16 07.wav  lovel=109 hivel=127
+
+<group> group_label=Crash 16 Edge  ampeg_release=5  lokey=d3  hikey=d#3  pitch_keytrack=0  group_volume=10
+<region> sample=crash 16 edge 01.wav  lovel=1   hivel=43   volume=2
+<region> sample=crash 16 edge 02.wav  lovel=44  hivel=85   volume=2
+<region> sample=crash 16 edge 03.wav  lovel=86  hivel=127
+
+<group> group_label=Crash 16 Rolls  ampeg_release=5
+<region> sample=crash 16 roll 01.wav       key=e3
+<region> sample=crash 16 roll 02.wav       key=f3
+<region> sample=crash 16 roll damp 01.wav  key=g3
+<region> sample=crash 16 roll damp 02.wav  key=a3
+<region> sample=crash 16 roll damp 03.wav  key=b3
+
+// Crash 17
+
+<group> group_label=Crash 17  ampeg_release=5  lokey=c4  hikey=c#4  pitch_keytrack=0
+<region> sample=crash 17 01.wav  lovel=1   hivel=24  volume=-3
+<region> sample=crash 17 02.wav  lovel=25  hivel=41  volume=-3
+<region> sample=crash 17 03.wav  lovel=42  hivel=58  volume=-3
+<region> sample=crash 17 04.wav  lovel=59  hivel=75  volume=-3
+<region> sample=crash 17 05.wav  lovel=76  hivel=92
+<region> sample=crash 17 06.wav  lovel=93  hivel=108
+<region> sample=crash 17 07.wav  lovel=109 hivel=127
+
+<group> group_label=Crash 17 Edge  ampeg_release=5  lokey=d4  hikey=d#4  pitch_keytrack=0  seq_length=16  group_volume=10
+<region> sample=crash 17 edge 02.wav  seq_position=1
+<region> sample=crash 17 edge 01.wav  seq_position=2
+<region> sample=crash 17 edge 04.wav  seq_position=3
+<region> sample=crash 17 edge 03.wav  seq_position=4
+<region> sample=crash 17 edge 02.wav  seq_position=5
+<region> sample=crash 17 edge 01.wav  seq_position=6
+<region> sample=crash 17 edge 04.wav  seq_position=7
+<region> sample=crash 17 edge 01.wav  seq_position=8
+<region> sample=crash 17 edge 02.wav  seq_position=9
+<region> sample=crash 17 edge 03.wav  seq_position=10
+<region> sample=crash 17 edge 04.wav  seq_position=11
+<region> sample=crash 17 edge 01.wav  seq_position=12
+<region> sample=crash 17 edge 02.wav  seq_position=13
+<region> sample=crash 17 edge 03.wav  seq_position=14
+<region> sample=crash 17 edge 04.wav  seq_position=15
+<region> sample=crash 17 edge 03.wav  seq_position=16
+
+<group> group_label=Crash 17 Rolls  ampeg_release=5
+<region> sample=crash 17 roll 01.wav       key=e4
+<region> sample=crash 17 roll 02.wav       key=f4
+<region> sample=crash 17 roll 03.wav       key=g4
+<region> sample=crash 17 roll damp 01.wav  key=a4
+<region> sample=crash 17 roll damp 02.wav  key=b4
+
+// Cymbals Clash
+
+<group> group_label=Cymbals Clash Open  ampeg_release=5  key=c5
+<region> sample=Cymbals Clash 01 open.wav  lovel=1   hivel=24   volume=15.411
+<region> sample=Cymbals Clash 02 open.wav  lovel=25  hivel=41   volume=6.861
+<region> sample=Cymbals Clash 03 open.wav  lovel=42  hivel=58   volume=4.321
+<region> sample=Cymbals Clash 04 open.wav  lovel=59  hivel=75   volume=2.883
+<region> sample=Cymbals Clash 05 open.wav  lovel=76  hivel=92   volume=4.45
+<region> sample=Cymbals Clash 06 open.wav  lovel=93  hivel=108
+<region> sample=Cymbals Clash 07 open.wav  lovel=109 hivel=127
+
+<group> group_label=Cymbals Clash Closed  loop_mode=one_shot  key=d5
+<region> sample=Cymbals Clash 02.wav  lovel=1   hivel=39   volume=9.502
+<region> sample=Cymbals Clash 01.wav  lovel=40  hivel=69   volume=8.92
+<region> sample=Cymbals Clash 03.wav  lovel=70  hivel=89   volume=4.946
+<region> sample=Cymbals Clash 04.wav  lovel=90  hivel=108  volume=2.34
+<region> sample=Cymbals Clash 05.wav  lovel=109 hivel=127

@@ -1,0 +1,15 @@
+<control>
+default_path=samples/Fake_Glass_Harmonica/
+label_cc72=Note Release  set_cc72=40
+
+<global> amp_veltrack=98
+
+<group> ampeg_release=0.3  ampeg_release_oncc72=5.7
+
+<region> sample=glassF#4.wav  lokey=c4   hikey=f#4  pitch_keycenter=f#4
+<region> sample=glassG4.wav   lokey=g4   hikey=a4   pitch_keycenter=g4
+<region> sample=glassC5.wav   lokey=a#4  hikey=c5   pitch_keycenter=c5
+<region> sample=glassD#5.wav  lokey=c#5  hikey=d#5  pitch_keycenter=d#5
+<region> sample=glassE5.wav   lokey=e5   hikey=e5   pitch_keycenter=e5
+<region> sample=glassF5.wav   lokey=f5   hikey=f5   pitch_keycenter=f5
+<region> sample=glassF#5.wav  lokey=f#5  hikey=g5   pitch_keycenter=f#5

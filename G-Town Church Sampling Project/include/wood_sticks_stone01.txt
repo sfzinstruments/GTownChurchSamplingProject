@@ -1,0 +1,3 @@
+<region> sample=stone0101.wav  lovel=1    hivel=90
+<region> sample=stone0102.wav  lovel=91   hivel=107
+<region> sample=stone0103.wav  lovel=108  hivel=127

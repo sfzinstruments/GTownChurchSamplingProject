@@ -1,0 +1,4 @@
+<region> sample=thin0101.wav  lovel=1    hivel=90
+<region> sample=thin0102.wav  lovel=91   hivel=107
+<region> sample=thin0103.wav  lovel=108  hivel=121
+<region> sample=thin0104.wav  lovel=122  hivel=127

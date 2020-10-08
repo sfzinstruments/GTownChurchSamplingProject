@@ -1,0 +1,2 @@
+<region> sample=knock001.wav  lovel=1    hivel=107
+<region> sample=knock002.wav  lovel=108  hivel=127

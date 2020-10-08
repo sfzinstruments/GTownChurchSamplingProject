@@ -1,0 +1,38 @@
+<control>
+default_path=samples/Toy_Glockenspiel/
+label_cc72=Note Release  set_cc72=30
+
+<global> amp_veltrack=98
+
+
+<group> ampeg_release=0.3  ampeg_release_oncc72=12  lovel=1  hivel=109
+cutoff=1000  fil_type=lpf_1p  fil_keytrack=30  fil_veltrack=8000
+<region> sample=glock c#4.wav  lokey=c2   hikey=c#3  pitch_keycenter=c#3
+<region> sample=glock d4.wav   lokey=d3   hikey=d3   pitch_keycenter=d3
+<region> sample=glock e4.wav   lokey=d#3  hikey=e3   pitch_keycenter=e3
+<region> sample=glock f#4.wav  lokey=f3   hikey=f#3  pitch_keycenter=f#3
+<region> sample=glock g4.wav   lokey=g3   hikey=g3   pitch_keycenter=g3
+<region> sample=glock a4.wav   lokey=g#3  hikey=a3   pitch_keycenter=a3
+<region> sample=glock b4.wav   lokey=a#3  hikey=b3   pitch_keycenter=b3
+<region> sample=glock c5.wav   lokey=c4   hikey=c#4  pitch_keycenter=c4
+<region> sample=glock d5.wav   lokey=d4   hikey=d#4  pitch_keycenter=d4
+<region> sample=glock e5.wav   lokey=e4   hikey=b4   pitch_keycenter=e4
+
+<group> ampeg_release=0.3  ampeg_release_oncc72=12  lovel=110  hivel=127
+<region> sample=glock c#4.wav  lokey=c2   hikey=c#3  pitch_keycenter=c#3
+<region> sample=glock d4.wav   lokey=d3   hikey=d3   pitch_keycenter=d3
+<region> sample=glock e4.wav   lokey=d#3  hikey=e3   pitch_keycenter=e3
+<region> sample=glock f#4.wav  lokey=f3   hikey=f#3  pitch_keycenter=f#3
+<region> sample=glock g4.wav   lokey=g3   hikey=g3   pitch_keycenter=g3
+<region> sample=glock a4.wav   lokey=g#3  hikey=a3   pitch_keycenter=a3
+<region> sample=glock b4.wav   lokey=a#3  hikey=b3   pitch_keycenter=b3
+<region> sample=glock c5.wav   lokey=c4   hikey=c#4  pitch_keycenter=c4
+<region> sample=glock d5.wav   lokey=d4   hikey=d#4  pitch_keycenter=d4
+<region> sample=glock e5.wav   lokey=e4   hikey=b4   pitch_keycenter=e4
+
+
+<group> group_label=Glissandos  ampeg_release=12  ampeg_release_oncc72=5.7
+<region> sample=glock gliss up 01.wav    key=c5
+<region> sample=glock gliss up 02.wav    key=d5
+<region> sample=glock gliss down 01.wav  key=e5
+<region> sample=glock gliss down 02.wav  key=f5

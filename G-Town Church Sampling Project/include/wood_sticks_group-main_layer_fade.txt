@@ -1,0 +1,1 @@
+<group> sw_lolast=d2  sw_hilast=d2  sw_label=Wood Sticks Octave Xfade  amplitude_oncc1=100  amplitude_curvecc1=2

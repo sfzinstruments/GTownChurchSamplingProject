@@ -1,0 +1,232 @@
+// Keyswitch C2 (default): Use mod wheel to fade in an octave lower layer.
+// Keyswitch D2: Use mod wheel to crossfade between the normal and octave lower layer.
+
+#define $MAIN_LAYER "include/wood_sticks_group-main_layer.txt"
+#define $MAIN-LAYER_FADE "include/wood_sticks_group-main_layer_fade.txt"
+#define $OCT_DOWN_LAYER "include/wood_sticks_group-oct_down_layer.txt"
+
+<control>
+default_path=samples/Wood_Sticks/
+label_cc1=Layer XFade
+
+<global> loop_mode=one_shot  pitch_keytrack=0
+sw_lokey=c2  sw_hikey=d2  sw_default=c2
+
+
+#include $MAIN_LAYER       key=c3
+#include "include/wood_sticks_deep01.txt"
+
+#include $MAIN-LAYER_FADE  key=c3
+#include "include/wood_sticks_deep01.txt"
+
+#include $OCT_DOWN_LAYER   key=c3
+#include "include/wood_sticks_deep01.txt"
+
+
+
+#include $MAIN_LAYER       key=d3
+#include "include/wood_sticks_deep02.txt"
+
+#include $MAIN-LAYER_FADE  key=d3
+#include "include/wood_sticks_deep02.txt"
+
+#include $OCT_DOWN_LAYER   key=d3
+#include "include/wood_sticks_deep02.txt"
+
+
+
+#include $MAIN_LAYER       key=e3
+#include "include/wood_sticks_deeper01.txt"
+
+#include $MAIN-LAYER_FADE  key=e3
+#include "include/wood_sticks_deeper01.txt"
+
+#include $OCT_DOWN_LAYER   key=e3
+#include "include/wood_sticks_deeper01.txt"
+
+
+
+#include $MAIN_LAYER       key=f3
+#include "include/wood_sticks_deeper02.txt"
+
+#include $MAIN-LAYER_FADE  key=f3
+#include "include/wood_sticks_deeper02.txt"
+
+#include $OCT_DOWN_LAYER   key=f3
+#include "include/wood_sticks_deeper02.txt"
+
+
+
+#include $MAIN_LAYER       key=g3
+#include "include/wood_sticks_flat01.txt"
+
+#include $MAIN-LAYER_FADE  key=g3
+#include "include/wood_sticks_flat01.txt"
+
+#include $OCT_DOWN_LAYER   key=g3
+#include "include/wood_sticks_flat01.txt"
+
+
+
+#include $MAIN_LAYER       key=a3
+#include "include/wood_sticks_flat02.txt"
+
+#include $MAIN-LAYER_FADE  key=a3
+#include "include/wood_sticks_flat02.txt"
+
+#include $OCT_DOWN_LAYER   key=a3
+#include "include/wood_sticks_flat02.txt"
+
+
+
+#include $MAIN_LAYER       key=b3
+#include "include/wood_sticks_flat03.txt"
+
+#include $MAIN-LAYER_FADE  key=b3
+#include "include/wood_sticks_flat03.txt"
+
+#include $OCT_DOWN_LAYER   key=b3
+#include "include/wood_sticks_flat03.txt"
+
+
+
+#include $MAIN_LAYER       key=c4
+#include "include/wood_sticks_flat04.txt"
+
+#include $MAIN-LAYER_FADE  key=c4
+#include "include/wood_sticks_flat04.txt"
+
+#include $OCT_DOWN_LAYER   key=c4
+#include "include/wood_sticks_flat04.txt"
+
+
+
+#include $MAIN_LAYER       key=d4
+#include "include/wood_sticks_hard01.txt"
+
+#include $MAIN-LAYER_FADE  key=d4
+#include "include/wood_sticks_hard01.txt"
+
+#include $OCT_DOWN_LAYER   key=d4
+#include "include/wood_sticks_hard01.txt"
+
+
+
+#include $MAIN_LAYER       key=e4
+#include "include/wood_sticks_hard02.txt"
+
+#include $MAIN-LAYER_FADE  key=e4
+#include "include/wood_sticks_hard02.txt"
+
+#include $OCT_DOWN_LAYER   key=e4
+#include "include/wood_sticks_hard02.txt"
+
+
+
+#include $MAIN_LAYER       key=f4
+#include "include/wood_sticks_hollow.txt"
+
+#include $MAIN-LAYER_FADE  key=f4
+#include "include/wood_sticks_hollow.txt"
+
+#include $OCT_DOWN_LAYER   key=f4
+#include "include/wood_sticks_hollow.txt"
+
+
+
+#include $MAIN_LAYER       key=g4
+#include "include/wood_sticks_knock.txt"
+
+#include $MAIN-LAYER_FADE  key=g4
+#include "include/wood_sticks_knock.txt"
+
+#include $OCT_DOWN_LAYER   key=g4
+#include "include/wood_sticks_knock.txt"
+
+
+
+#include $MAIN_LAYER       key=a4
+#include "include/wood_sticks_light.txt"
+
+#include $MAIN-LAYER_FADE  key=a4
+#include "include/wood_sticks_light.txt"
+
+#include $OCT_DOWN_LAYER   key=a4
+#include "include/wood_sticks_light.txt"
+
+
+
+#include $MAIN_LAYER       key=b4
+#include "include/wood_sticks_start01.txt"
+
+#include $MAIN-LAYER_FADE  key=b4
+#include "include/wood_sticks_start01.txt"
+
+#include $OCT_DOWN_LAYER   key=b4
+#include "include/wood_sticks_start01.txt"
+
+
+
+#include $MAIN_LAYER       key=c5
+#include "include/wood_sticks_stone01.txt"
+
+#include $MAIN-LAYER_FADE  key=c5
+#include "include/wood_sticks_stone01.txt"
+
+#include $OCT_DOWN_LAYER   key=c5
+#include "include/wood_sticks_stone01.txt"
+
+
+
+#include $MAIN_LAYER       key=d5
+#include "include/wood_sticks_stone02.txt"
+
+#include $MAIN-LAYER_FADE  key=d5
+#include "include/wood_sticks_stone02.txt"
+
+#include $OCT_DOWN_LAYER   key=d5
+#include "include/wood_sticks_stone02.txt"
+
+
+
+#include $MAIN_LAYER       key=e5
+#include "include/wood_sticks_thin01.txt"
+
+#include $MAIN-LAYER_FADE  key=e5
+#include "include/wood_sticks_thin01.txt"
+
+#include $OCT_DOWN_LAYER   key=e5
+#include "include/wood_sticks_thin01.txt"
+
+
+
+#include $MAIN_LAYER       key=f5
+#include "include/wood_sticks_thin02.txt"
+
+#include $MAIN-LAYER_FADE  key=f5
+#include "include/wood_sticks_thin02.txt"
+
+#include $OCT_DOWN_LAYER   key=f5
+#include "include/wood_sticks_thin02.txt"
+
+
+
+#include $MAIN_LAYER       key=g5
+#include "include/wood_sticks_thin03.txt"
+
+#include $MAIN-LAYER_FADE  key=g5
+#include "include/wood_sticks_thin03.txt"
+
+#include $OCT_DOWN_LAYER   key=g5
+#include "include/wood_sticks_thin03.txt"
+
+
+
+#include $MAIN_LAYER       key=a5
+#include "include/wood_sticks_thin04.txt"
+
+#include $MAIN-LAYER_FADE  key=a5
+#include "include/wood_sticks_thin04.txt"
+
+#include $OCT_DOWN_LAYER   key=a5
+#include "include/wood_sticks_thin04.txt"

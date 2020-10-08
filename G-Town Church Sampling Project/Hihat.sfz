@@ -1,0 +1,96 @@
+<control>
+default_path=samples/Hihat/
+
+<global> amp_veltrack=99.3
+
+<group> group_label=LH Hit Closed Tight  loop_mode=one_shot  seq_length=2  key=c3  group=1
+<region> sample=hihat cl 02 lh 01.wav  lovel=1    hivel=33   seq_position=1  volume=-2
+<region> sample=hihat cl 02 lh 02.wav  lovel=1    hivel=33   seq_position=2
+<region> sample=hihat cl 02 lh 03.wav  lovel=34   hivel=60   seq_position=1
+<region> sample=hihat cl 02 lh 04.wav  lovel=34   hivel=60   seq_position=2  volume=-1.5
+<region> sample=hihat cl 02 lh 05.wav  lovel=61   hivel=87   seq_position=1
+<region> sample=hihat cl 02 lh 06.wav  lovel=61   hivel=87   seq_position=2
+<region> sample=hihat cl 02 lh 07.wav  lovel=88   hivel=106  seq_position=1  volume=-1.5
+<region> sample=hihat cl 02 lh 08.wav  lovel=88   hivel=106  seq_position=2
+<region> sample=hihat cl 02 lh 09.wav  lovel=107  hivel=117  seq_position=1
+<region> sample=hihat cl 02 lh 10.wav  lovel=107  hivel=117  seq_position=2
+<region> sample=hihat cl 02 lh 11.wav  lovel=118  hivel=127  seq_position=1
+<region> sample=hihat cl 02 lh 12.wav  lovel=118  hivel=127  seq_position=2
+
+
+<group> group_label=RH Hit Closed Tight  loop_mode=one_shot  seq_length=2  key=d3  group=1
+<region> sample=hihat cl 02 rh 01.wav  lovel=1    hivel=33   seq_position=1
+<region> sample=hihat cl 02 rh 02.wav  lovel=1    hivel=33   seq_position=2
+<region> sample=hihat cl 02 rh 03.wav  lovel=34   hivel=60   seq_position=1
+<region> sample=hihat cl 02 rh 04.wav  lovel=34   hivel=60   seq_position=2
+<region> sample=hihat cl 02 rh 05.wav  lovel=61   hivel=87   seq_position=1
+<region> sample=hihat cl 02 rh 06.wav  lovel=61   hivel=87   seq_position=2
+<region> sample=hihat cl 02 rh 07.wav  lovel=88   hivel=106  seq_position=1
+<region> sample=hihat cl 02 rh 08.wav  lovel=88   hivel=106  seq_position=2
+<region> sample=hihat cl 02 rh 09.wav  lovel=107  hivel=117  seq_position=1
+<region> sample=hihat cl 02 rh 10.wav  lovel=107  hivel=117  seq_position=2
+<region> sample=hihat cl 02 rh 11.wav  lovel=118  hivel=127  seq_position=1
+<region> sample=hihat cl 02 rh 12.wav  lovel=118  hivel=127  seq_position=2
+
+
+<group> group_label=LH Hit Closed Loose  loop_mode=one_shot  seq_length=2  key=e3  group=1
+<region> sample=hihat cl lh 01.wav  lovel=1    hivel=33   seq_position=1  volume=-2
+<region> sample=hihat cl lh 02.wav  lovel=1    hivel=33   seq_position=2  volume=-2
+<region> sample=hihat cl lh 03.wav  lovel=34   hivel=60   seq_position=1
+<region> sample=hihat cl lh 04.wav  lovel=34   hivel=60   seq_position=2
+<region> sample=hihat cl lh 05.wav  lovel=61   hivel=87   seq_position=1
+<region> sample=hihat cl lh 06.wav  lovel=61   hivel=87   seq_position=2
+<region> sample=hihat cl lh 07.wav  lovel=88   hivel=106  seq_position=1
+<region> sample=hihat cl lh 08.wav  lovel=88   hivel=106  seq_position=2
+<region> sample=hihat cl lh 09.wav  lovel=107  hivel=117  seq_position=1
+<region> sample=hihat cl lh 10.wav  lovel=107  hivel=117  seq_position=2
+<region> sample=hihat cl lh 11.wav  lovel=118  hivel=127  seq_position=1
+<region> sample=hihat cl lh 10.wav  lovel=118  hivel=127  seq_position=2
+
+
+<group> group_label=RH Hit Closed Med  loop_mode=one_shot  seq_length=2  key=f3  group=1
+<region> sample=hihat cl rh 01.wav  lovel=1    hivel=33   seq_position=1  volume=2
+<region> sample=hihat cl rh 02.wav  lovel=1    hivel=33   seq_position=2  volume=2
+<region> sample=hihat cl rh 03.wav  lovel=34   hivel=60   seq_position=1  volume=2
+<region> sample=hihat cl rh 04.wav  lovel=34   hivel=60   seq_position=2  volume=2
+<region> sample=hihat cl rh 05.wav  lovel=61   hivel=87   seq_position=1
+<region> sample=hihat cl rh 06.wav  lovel=61   hivel=87   seq_position=2
+<region> sample=hihat cl rh 07.wav  lovel=88   hivel=106  seq_position=1
+<region> sample=hihat cl rh 08.wav  lovel=88   hivel=106  seq_position=2
+<region> sample=hihat cl rh 09.wav  lovel=107  hivel=117  seq_position=1  volume=1
+<region> sample=hihat cl rh 10.wav  lovel=107  hivel=117  seq_position=2  volume=1
+<region> sample=hihat cl rh 11.wav  lovel=118  hivel=127  seq_position=1  volume=1.5
+<region> sample=hihat cl rh 10.wav  lovel=118  hivel=127  seq_position=2  volume=1.5
+
+
+<group> group_label=Hit Loose  loop_mode=one_shot  seq_length=8  key=g3  ampeg_release=0.6  off_mode=normal  group=2  off_by=1
+<region> sample=hihat op rh 01.wav  lovel=1    hivel=47   seq_position=1
+<region> sample=hihat op rh 02.wav  lovel=1    hivel=47   seq_position=2
+<region> sample=hihat op rh 03.wav  lovel=1    hivel=47   seq_position=3
+<region> sample=hihat op rh 01.wav  lovel=1    hivel=47   seq_position=4
+<region> sample=hihat op rh 02.wav  lovel=1    hivel=47   seq_position=5
+<region> sample=hihat op rh 01.wav  lovel=1    hivel=47   seq_position=6
+<region> sample=hihat op rh 03.wav  lovel=1    hivel=47   seq_position=7
+<region> sample=hihat op rh 02.wav  lovel=1    hivel=47   seq_position=8
+
+<region> sample=hihat op rh 04.wav  lovel=48   hivel=87   seq_position=1
+<region> sample=hihat op rh 05.wav  lovel=48   hivel=87   seq_position=2
+<region> sample=hihat op rh 06.wav  lovel=48   hivel=87   seq_position=3
+<region> sample=hihat op rh 04.wav  lovel=48   hivel=87   seq_position=4
+<region> sample=hihat op rh 05.wav  lovel=48   hivel=87   seq_position=5
+<region> sample=hihat op rh 04.wav  lovel=48   hivel=87   seq_position=6
+<region> sample=hihat op rh 06.wav  lovel=48   hivel=87   seq_position=7
+<region> sample=hihat op rh 05.wav  lovel=48   hivel=87   seq_position=8
+
+<region> sample=hihat op rh 07.wav  lovel=88   hivel=127  seq_position=1
+<region> sample=hihat op rh 08.wav  lovel=88   hivel=127  seq_position=2
+<region> sample=hihat op rh 06.wav  lovel=88   hivel=127  seq_position=3
+<region> sample=hihat op rh 07.wav  lovel=88   hivel=127  seq_position=4
+<region> sample=hihat op rh 08.wav  lovel=88   hivel=127  seq_position=5
+<region> sample=hihat op rh 07.wav  lovel=88   hivel=127  seq_position=6
+<region> sample=hihat op rh 06.wav  lovel=88   hivel=127  seq_position=7
+<region> sample=hihat op rh 08.wav  lovel=88   hivel=127  seq_position=8
+
+
+<group> group_label=Hit Open  loop_mode=one_shot   key=a3  ampeg_release=0.6  off_mode=normal  group=2  off_by=1
+<region> sample=hihat OPEN.wav

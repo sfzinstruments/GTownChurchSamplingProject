@@ -1,0 +1,27 @@
+<control>
+default_path=samples/Small_Plate/
+
+<global> amp_veltrack=98.5  pitch_keytrack=0
+
+<group> group_label=Plate Hit  loop_mode=one_shot  lokey=c3  hikey=d3
+
+<region> sample=plate hit 01.wav  lovel=1    hivel=15
+<region> sample=plate hit 02.wav  lovel=16   hivel=23
+<region> sample=plate hit 03.wav  lovel=24   hivel=31
+<region> sample=plate hit 04.wav  lovel=32   hivel=39
+<region> sample=plate hit 05.wav  lovel=40   hivel=47
+<region> sample=plate hit 06.wav  lovel=48   hivel=55
+<region> sample=plate hit 07.wav  lovel=56   hivel=63
+<region> sample=plate hit 08.wav  lovel=64   hivel=71
+<region> sample=plate hit 09.wav  lovel=72   hivel=79
+<region> sample=plate hit 10.wav  lovel=80   hivel=87
+<region> sample=plate hit 11.wav  lovel=88   hivel=95
+<region> sample=plate hit 12.wav  lovel=96   hivel=103
+<region> sample=plate hit 13.wav  lovel=104  hivel=111
+<region> sample=plate hit 14.wav  lovel=112  hivel=119
+<region> sample=plate hit 15.wav  lovel=120  hivel=127
+
+<group> group_label=Plate Rolls  ampeg_release=0.7
+
+<region> sample=plate roll 01.wav  key=f3
+<region> sample=plate roll 02.wav  key=g3

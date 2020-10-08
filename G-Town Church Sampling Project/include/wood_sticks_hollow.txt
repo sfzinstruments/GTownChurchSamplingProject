@@ -1,0 +1,3 @@
+<region> sample=hollow001.wav  lovel=1    hivel=90
+<region> sample=hollow002.wav  lovel=91   hivel=107
+<region> sample=hollow003.wav  lovel=108  hivel=127

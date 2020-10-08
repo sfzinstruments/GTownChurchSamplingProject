@@ -1,0 +1,130 @@
+<control>
+default_path=samples/Organ/
+label_cc72=Room Size  set_cc72=127
+label_cc11=Expression
+set_cc11=127
+
+<global> amp_veltrack=0  amplitude_oncc11=100
+
+<group> ampeg_release=0.5
+<region> sample=organ tutti C2.wav   lokey=28  hikey=36  pitch_keycenter=36
+<region> sample=organ tutti C#2.wav  key=37
+<region> sample=organ tutti D2.wav   key=38
+<region> sample=organ tutti D#2.wav  key=39
+<region> sample=organ tutti E2.wav   key=40
+<region> sample=organ tutti F2.wav   key=41
+<region> sample=organ tutti F#2.wav  key=42
+<region> sample=organ tutti G2.wav   key=43
+<region> sample=organ tutti G#2.wav  key=44
+<region> sample=organ tutti A2.wav   key=45
+<region> sample=organ tutti A#2.wav  key=46
+<region> sample=organ tutti B2.wav   key=47
+<region> sample=organ tutti C3.wav   key=48
+<region> sample=organ tutti C#3.wav  key=49
+<region> sample=organ tutti D3.wav   key=50
+<region> sample=organ tutti D#3.wav  key=51
+<region> sample=organ tutti E3.wav   key=52
+<region> sample=organ tutti F3.wav   key=53
+<region> sample=organ tutti F#3.wav  key=54
+<region> sample=organ tutti G3.wav   key=55
+<region> sample=organ tutti G#3.wav  key=56
+<region> sample=organ tutti A3.wav   key=57
+<region> sample=organ tutti A#3.wav  key=58
+<region> sample=organ tutti B3.wav   key=59
+<region> sample=organ tutti C4.wav   key=60
+<region> sample=organ tutti C#4.wav  key=61
+<region> sample=organ tutti D4.wav   key=62
+<region> sample=organ tutti D#4.wav  key=63
+<region> sample=organ tutti E4.wav   key=64
+<region> sample=organ tutti F4.wav   key=65
+<region> sample=organ tutti F#4.wav  key=66
+<region> sample=organ tutti G4.wav   key=67
+<region> sample=organ tutti G#4.wav  key=68
+<region> sample=organ tutti A4.wav   key=69
+<region> sample=organ tutti A#4.wav  key=70
+<region> sample=organ tutti B4.wav   key=71
+<region> sample=organ tutti C5.wav   key=72
+<region> sample=organ tutti C#5.wav  key=73
+<region> sample=organ tutti D5.wav   key=74
+<region> sample=organ tutti D#5.wav  key=75
+<region> sample=organ tutti E5.wav   key=76
+<region> sample=organ tutti F5.wav   key=77
+<region> sample=organ tutti F#5.wav  key=78
+<region> sample=organ tutti G5.wav   key=79
+<region> sample=organ tutti G#5.wav  key=80
+<region> sample=organ tutti A5.wav   key=81
+<region> sample=organ tutti A#5.wav  key=82
+<region> sample=organ tutti B5.wav   key=83
+<region> sample=organ tutti C6.wav   key=84
+<region> sample=organ tutti C#6.wav  key=85
+<region> sample=organ tutti D6.wav   key=86
+<region> sample=organ tutti D#6.wav  key=87
+<region> sample=organ tutti E6.wav   key=88
+<region> sample=organ tutti F6.wav   key=89
+<region> sample=organ tutti F#6.wav  key=90
+<region> sample=organ tutti G6.wav   lokey=91  hikey=95  pitch_keycenter=91
+
+
+<group> trigger=release_key  ampeg_decay=1.5  ampeg_decay_oncc72=20  ampeg_sustain=0  ampeg_sustain_oncc72=100  ampeg_sustain_curvecc72=7  group_volume=-2
+<region> sample=release tutti C2.wav   lokey=28  hikey=36  pitch_keycenter=36
+<region> sample=release tutti C#2.wav  key=37
+<region> sample=release tutti D2.wav   key=38
+<region> sample=release tutti D#2.wav  key=39
+<region> sample=release tutti E2.wav   key=40  volume=-2
+<region> sample=release tutti F2.wav   key=41
+<region> sample=release tutti F#2.wav  key=42  volume=-2
+<region> sample=release tutti G2.wav   key=43
+<region> sample=release tutti G#2.wav  key=44
+<region> sample=release tutti A2.wav   key=45
+<region> sample=release tutti A#2.wav  key=46
+<region> sample=release tutti B2.wav   key=47
+<region> sample=release tutti C3.wav   key=48
+<region> sample=release tutti C#3.wav  key=49
+<region> sample=release tutti D3.wav   key=50
+<region> sample=release tutti D#3.wav  key=51
+<region> sample=release tutti E3.wav   key=52  volume=-2
+<region> sample=release tutti F3.wav   key=53
+<region> sample=release tutti F#3.wav  key=54
+<region> sample=release tutti G3.wav   key=55
+<region> sample=release tutti G#3.wav  key=56
+<region> sample=release tutti A3.wav   key=57
+<region> sample=release tutti A#3.wav  key=58
+<region> sample=release tutti B3.wav   key=59
+<region> sample=release tutti C4.wav   key=60
+<region> sample=release tutti C#4.wav  key=61  volume=-2
+<region> sample=release tutti D4.wav   key=62  volume=-2
+<region> sample=release tutti D#4.wav  key=63
+<region> sample=release tutti E4.wav   key=64
+<region> sample=release tutti F4.wav   key=65
+<region> sample=release tutti F#4.wav  key=66
+<region> sample=release tutti G4.wav   key=67
+<region> sample=release tutti G#4.wav  key=68
+<region> sample=release tutti A4.wav   key=69
+<region> sample=release tutti A#4.wav  key=70
+<region> sample=release tutti B4.wav   key=71
+<region> sample=release tutti C5.wav   key=72
+<region> sample=release tutti C#5.wav  key=73  volume=-2
+<region> sample=release tutti D5.wav   key=74
+<region> sample=release tutti D#5.wav  key=75
+<region> sample=release tutti E5.wav   key=76
+<region> sample=release tutti F5.wav   key=77
+<region> sample=release tutti F#5.wav  key=78
+<region> sample=release tutti G5.wav   key=79
+<region> sample=release tutti G#5.wav  key=80
+<region> sample=release tutti A5.wav   key=81
+<region> sample=release tutti A#5.wav  key=82
+<region> sample=release tutti B5.wav   key=83
+<region> sample=release tutti C6.wav   key=84  volume=-2
+<region> sample=release tutti C#6.wav  key=85  volume=-2
+<region> sample=release tutti D6.wav   key=86
+<region> sample=release tutti D#6.wav  key=87
+<region> sample=release tutti E6.wav   key=88
+<region> sample=release tutti F6.wav   key=89
+<region> sample=release tutti F#6.wav  key=90
+<region> sample=release tutti G6.wav   lokey=91  hikey=95  pitch_keycenter=91
+
+
+<curve>  curve_index=7
+  v000=0
+  v117=0
+  v127=1

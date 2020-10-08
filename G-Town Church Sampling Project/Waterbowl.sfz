@@ -1,0 +1,25 @@
+<control>
+default_path=samples/Waterbowl/
+label_cc72=Note Release  set_cc72=30
+
+<global> amp_veltrack=97
+global_volume=-3
+volume_oncc131=3
+volume_curvecc131=4
+
+<group> ampeg_release=0.3  ampeg_release_oncc72=20  lovel=1  hivel=109
+cutoff=2000  fil_type=lpf_1p  fil_keytrack=30  fil_veltrack=8000
+<region> sample=waterbowl06 G#.wav  lokey=c3  hikey=g#4  pitch_keycenter=g#4
+<region> sample=waterbowl05 A#.wav  lokey=a4  hikey=b4   pitch_keycenter=a#4
+<region> sample=waterbowl04 C.wav   lokey=c5  hikey=d#5  pitch_keycenter=c5
+<region> sample=waterbowl03 F.wav   lokey=e5  hikey=g#5  pitch_keycenter=f5
+<region> sample=waterbowl02 B.wav   lokey=a5  hikey=b5   pitch_keycenter=b5
+<region> sample=waterbowl01 C#.wav  lokey=c6  hikey=c8   pitch_keycenter=c#6
+
+<group> ampeg_release=0.3  ampeg_release_oncc72=20  lovel=110  hivel=127
+<region> sample=waterbowl06 G#.wav  lokey=c3  hikey=g#4  pitch_keycenter=g#4
+<region> sample=waterbowl05 A#.wav  lokey=a4  hikey=b4   pitch_keycenter=a#4
+<region> sample=waterbowl04 C.wav   lokey=c5  hikey=d#5  pitch_keycenter=c5
+<region> sample=waterbowl03 F.wav   lokey=e5  hikey=g#5  pitch_keycenter=f5
+<region> sample=waterbowl02 B.wav   lokey=a5  hikey=b5   pitch_keycenter=b5
+<region> sample=waterbowl01 C#.wav  lokey=c6  hikey=c8   pitch_keycenter=c#6

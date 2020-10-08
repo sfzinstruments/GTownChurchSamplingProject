@@ -1,0 +1,4 @@
+<region> sample=deeper0201.wav  lovel=1    hivel=90
+<region> sample=deeper0202.wav  lovel=91   hivel=107
+<region> sample=deeper0203.wav  lovel=108  hivel=121
+<region> sample=deeper0204.wav  lovel=122  hivel=127

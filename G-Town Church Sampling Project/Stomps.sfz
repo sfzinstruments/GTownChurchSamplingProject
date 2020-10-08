@@ -1,0 +1,24 @@
+<control>
+default_path=samples/Stomps/
+
+<global> amp_veltrack=98.5
+
+<group> loop_mode=one_shot
+<region> sample=stomp 01.wav  key=c2
+<region> sample=stomp 02.wav  key=d2
+<region> sample=stomp 03.wav  key=e2
+<region> sample=stomp 04.wav  key=f2
+<region> sample=stomp 05.wav  key=g2
+<region> sample=stomp 06.wav  key=a2
+<region> sample=stomp 07.wav  key=b2
+<region> sample=stomp 08.wav  key=c3
+<region> sample=stomp 09.wav  key=d3
+<region> sample=stomp 10.wav  key=e3
+<region> sample=stomp 11.wav  key=f3
+<region> sample=stomp 12.wav  key=g3
+<region> sample=stomp 13.wav  key=a3
+<region> sample=stomp 14.wav  key=b3
+<region> sample=stomp 15.wav  key=c4
+<region> sample=stomp 16.wav  key=d4
+<region> sample=stomp 17.wav  key=e4
+<region> sample=stomp 18.wav  key=f4

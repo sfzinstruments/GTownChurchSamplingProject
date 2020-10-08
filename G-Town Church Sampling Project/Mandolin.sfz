@@ -1,0 +1,40 @@
+<control>
+default_path=samples/Mandolin/
+label_cc72=Note Release  set_cc72=30
+
+<global> amp_veltrack=97.5
+
+<group> ampeg_release=0.3  ampeg_release_oncc72=5.7  lovel=1  hivel=109
+cutoff=400  fil_type=lpf_1p  fil_keytrack=30  fil_veltrack=8000
+
+<region> sample=mandolin G3.wav   lokey=c3   hikey=g#3  pitch_keycenter=g3
+<region> sample=mandolin A3#.wav  lokey=a3   hikey=b3   pitch_keycenter=a#3  volume=-2
+<region> sample=mandolin C4#.wav  lokey=c4   hikey=d4   pitch_keycenter=c#4  volume=0.5
+<region> sample=mandolin E4.wav   lokey=d#4  hikey=f4   pitch_keycenter=e4   volume=1.5
+<region> sample=mandolin G4.wav   lokey=f#4  hikey=g#4  pitch_keycenter=g4   volume=0.5
+<region> sample=mandolin A4#.wav  lokey=a4   hikey=a#4  pitch_keycenter=a#4  volume=0.5
+<region> sample=mandolin C5.wav   lokey=b4   hikey=c#5  pitch_keycenter=c5
+<region> sample=mandolin D5#.wav  lokey=d5   hikey=e5   pitch_keycenter=d#5
+<region> sample=mandolin F5#.wav  lokey=f5   hikey=g5   pitch_keycenter=f#5
+<region> sample=mandolin A5.wav   lokey=g#5  hikey=a#5  pitch_keycenter=a5
+<region> sample=mandolin C6.wav   lokey=b5   hikey=c#6  pitch_keycenter=c6   volume=-1
+<region> sample=mandolin D6#.wav  lokey=d6   hikey=e6   pitch_keycenter=d#6  volume=-2
+<region> sample=mandolin F6#.wav  lokey=f6   hikey=g6   pitch_keycenter=f#6  volume=-3
+<region> sample=mandolin A6.wav   lokey=g#6  hikey=e7   pitch_keycenter=a6   volume=-4
+
+<group> ampeg_release=0.3  ampeg_release_oncc72=5.7  lovel=110  hivel=127
+
+<region> sample=mandolin G3.wav   lokey=c3   hikey=g#3  pitch_keycenter=g3
+<region> sample=mandolin A3#.wav  lokey=a3   hikey=b3   pitch_keycenter=a#3  volume=-2
+<region> sample=mandolin C4#.wav  lokey=c4   hikey=d4   pitch_keycenter=c#4  volume=0.5
+<region> sample=mandolin E4.wav   lokey=d#4  hikey=f4   pitch_keycenter=e4   volume=1.5
+<region> sample=mandolin G4.wav   lokey=f#4  hikey=g#4  pitch_keycenter=g4   volume=0.5
+<region> sample=mandolin A4#.wav  lokey=a4   hikey=a#4  pitch_keycenter=a#4  volume=0.5
+<region> sample=mandolin C5.wav   lokey=b4   hikey=c#5  pitch_keycenter=c5
+<region> sample=mandolin D5#.wav  lokey=d5   hikey=e5   pitch_keycenter=d#5
+<region> sample=mandolin F5#.wav  lokey=f5   hikey=g5   pitch_keycenter=f#5
+<region> sample=mandolin A5.wav   lokey=g#5  hikey=a#5  pitch_keycenter=a5
+<region> sample=mandolin C6.wav   lokey=b5   hikey=c#6  pitch_keycenter=c6   volume=-1
+<region> sample=mandolin D6#.wav  lokey=d6   hikey=e6   pitch_keycenter=d#6  volume=-2
+<region> sample=mandolin F6#.wav  lokey=f6   hikey=g6   pitch_keycenter=f#6  volume=-3
+<region> sample=mandolin A6.wav   lokey=g#6  hikey=e7   pitch_keycenter=a6   volume=-4

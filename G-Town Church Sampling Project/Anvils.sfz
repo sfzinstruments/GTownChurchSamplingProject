@@ -1,0 +1,61 @@
+<control>
+default_path=samples/Anvils/
+
+
+<group> group_label=Anvil - wood  loop_mode=one_shot
+<region> sample=anvil-wood01.wav    key=36
+<region> sample=anvil-wood02.wav    key=37
+<region> sample=anvil-wood03.wav    key=38
+<region> sample=anvil-wood04.wav    key=39
+<region> sample=anvil-wood05.wav    key=40
+<region> sample=anvil-wood06.wav    key=41
+<region> sample=anvil-wood07.wav    key=42
+<region> sample=anvil-wood08.wav    key=43
+
+
+<group> group_label=Anvil - hit  loop_mode=one_shot
+<region> sample=anvil01.wav         key=48
+<region> sample=anvil02.wav         key=49
+<region> sample=anvil03.wav         key=50
+<region> sample=anvil04.wav         key=51
+<region> sample=anvil05.wav         key=52
+<region> sample=anvil06.wav         key=53
+<region> sample=anvil07.wav         key=54
+<region> sample=anvil08.wav         key=55
+<region> sample=anvil09.wav         key=56
+<region> sample=anvil10.wav         key=57
+<region> sample=anvil11.wav         key=58
+<region> sample=anvil12.wav         key=59
+<region> sample=anvil13.wav         key=60
+<region> sample=anvil14.wav         key=61
+<region> sample=anvil15.wav         key=62
+<region> sample=anvil16.wav         key=63
+<region> sample=anvil17.wav         key=64
+<region> sample=anvil18.wav         key=65
+
+
+<group> group_label=Anvil - damped  loop_mode=one_shot
+<region> sample=anvil-damped01.wav  key=67
+<region> sample=anvil-damped02.wav  key=68
+
+
+<group> group_label=Anvil - carpet  loop_mode=one_shot
+<region> sample=anvil-carpet01.wav  key=69
+
+
+<group> group_label=Anvil - brake  loop_mode=one_shot
+<region> sample=brake 01.wav        key=72
+<region> sample=brake 02.wav        key=73
+<region> sample=brake 03.wav        key=74
+<region> sample=brake 04.wav        key=75
+<region> sample=brake 05.wav        key=76
+<region> sample=brake 06.wav        key=77
+<region> sample=brake 07.wav        key=78
+<region> sample=brake 08.wav        key=79
+<region> sample=brake 09.wav        key=80
+<region> sample=brake 10.wav        key=81
+<region> sample=brake 11.wav        key=82
+<region> sample=brake 12.wav        key=83
+<region> sample=brake 13.wav        key=84
+<region> sample=brake 14.wav        key=85
+<region> sample=brake 15.wav        key=86

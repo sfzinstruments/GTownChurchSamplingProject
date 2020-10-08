@@ -1,0 +1,69 @@
+<control>
+default_path=samples/Bongos/
+
+<global> amp_veltrack=98.5  pitch_keytrack=0
+
+<group> group_label=Assorted Bongo Hits  loop_mode=one_shot
+<region> sample=bongo 01.wav  key=c2
+<region> sample=bongo 02.wav  key=d2
+<region> sample=bongo 03.wav  key=e2
+<region> sample=bongo 04.wav  key=f2
+<region> sample=bongo 05.wav  key=g2
+<region> sample=bongo 06.wav  key=a2
+<region> sample=bongo 07.wav  key=b2
+<region> sample=bongo 08.wav  key=c3
+<region> sample=bongo 09.wav  key=d3
+<region> sample=bongo 10.wav  key=e3
+<region> sample=bongo 11.wav  key=f3
+<region> sample=bongo 12.wav  key=g3
+<region> sample=bongo 13.wav  key=a3
+<region> sample=bongo 14.wav  key=b3
+
+
+<group> group_label=Bongo High  loop_mode=one_shot
+<region> sample=bongo 11.wav  key=c4  lovel=1   hivel=37   volume=7
+<region> sample=bongo 10.wav  key=c4  lovel=38  hivel=67
+<region> sample=bongo 08.wav  key=c4  lovel=68  hivel=99
+<region> sample=bongo 01.wav  key=c4  lovel=100 hivel=127
+
+<region> sample=bongo 09.wav  key=d4  lovel=1   hivel=59   volume=7
+<region> sample=bongo 06.wav  key=d4  lovel=60  hivel=99
+<region> sample=bongo 12.wav  key=d4  lovel=100 hivel=127
+
+
+<group> group_label=Bongo High Muted  loop_mode=one_shot
+<region> sample=bongo 07.wav  key=e4  lovel=1   hivel=89   volume=4
+<region> sample=bongo 03.wav  key=e4  lovel=90  hivel=127
+
+<region> sample=bongo 02.wav  key=f4  lovel=1   hivel=89   volume=4
+<region> sample=bongo 04.wav  key=f4  lovel=90  hivel=127
+
+
+<group> group_label=Bongo Low  loop_mode=one_shot
+<region> sample=bongo 14.wav  key=g4  lovel=1   hivel=89
+<region> sample=bongo 05.wav  key=g4  lovel=90  hivel=127
+
+<region> sample=bongo 13.wav  key=a4
+
+
+<group> group_label=Bongo Rolls and Loops  ampeg_release=0.3
+<region> sample=bongo roll 01.wav         key=c5  ampeg_release=3
+<region> sample=bongo roll 02 looped.wav  key=d5
+<region> sample=bongo roll 03 looped.wav  key=e5
+<region> sample=bongo roll 04 looped.wav  key=f5
+<region> sample=bongo loop.wav            key=g5
+
+<group> trigger=release  loop_mode=one_shot  ampeg_attack=0.003
+<region> sample=bongo roll 02.wav  key=d5  offset=157512
+<region> sample=bongo roll 03.wav  key=e5  offset=137454
+<region> sample=bongo roll 04.wav  key=f5  offset=252031
+<region> sample=bongo loop.wav     key=g5  offset=399330
+
+
+<group> group_label=Bongo Rolls and Loops (no release samples)  ampeg_release=1
+<region> sample=bongo roll 01.wav         key=c6  ampeg_release=3
+<region> sample=bongo roll 02.wav         key=d6
+<region> sample=bongo roll 03.wav         key=e6
+<region> sample=bongo roll 04.wav         key=f6
+<region> sample=bongo loop.wav            key=g6  loop_mode=no_loop
+

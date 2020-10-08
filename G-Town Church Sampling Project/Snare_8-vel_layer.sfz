@@ -1,0 +1,52 @@
+<control>
+default_path=samples/Snare_8-vel_layer/
+
+<global> amp_veltrack=98.5  pitch_keytrack=0
+
+<group> group_label=Flams  loop_mode=one_shot  lokey=a3  hikey=a#3  pitch_keycenter=a3
+<region> sample=snare flam 01-norm.wav  lovel=1    hivel=41   seq_position=1  seq_length=2
+<region> sample=snare flam 02-norm.wav  lovel=1    hivel=41   seq_position=2  seq_length=2
+<region> sample=snare flam 03-norm.wav  lovel=42   hivel=73   seq_position=1  seq_length=2
+<region> sample=snare flam 04-norm.wav  lovel=42   hivel=73   seq_position=2  seq_length=2
+<region> sample=snare flam 05-norm.wav  lovel=74   hivel=105  seq_position=1  seq_length=2
+<region> sample=snare flam 06-norm.wav  lovel=74   hivel=105  seq_position=2  seq_length=2
+<region> sample=snare flam 07-norm.wav  lovel=106  hivel=127
+
+
+<group> group_label=LH Hit  loop_mode=one_shot  lokey=c4  hikey=c#4  pitch_keycenter=c4  seq_length=2
+<region> sample=Snare LH 01-norm.wav  lovel=1    hivel=29   seq_position=1
+<region> sample=Snare LH 02-norm.wav  lovel=1    hivel=29   seq_position=2
+<region> sample=Snare LH 03-norm.wav  lovel=30   hivel=54   seq_position=1
+<region> sample=Snare LH 04-norm.wav  lovel=30   hivel=54   seq_position=2
+<region> sample=Snare LH 05-norm.wav  lovel=55   hivel=73   seq_position=1
+<region> sample=Snare LH 06-norm.wav  lovel=55   hivel=73   seq_position=2
+<region> sample=Snare LH 06-norm.wav  lovel=74   hivel=92   seq_position=1
+<region> sample=Snare LH 07-norm.wav  lovel=74   hivel=92   seq_position=2
+<region> sample=Snare LH 08-norm.wav  lovel=93   hivel=108  seq_position=1
+<region> sample=Snare LH 09-norm.wav  lovel=93   hivel=108  seq_position=2
+<region> sample=Snare LH 10-norm.wav  lovel=109  hivel=127  seq_position=1  seq_length=3
+<region> sample=Snare LH 11-norm.wav  lovel=109  hivel=127  seq_position=2  seq_length=3
+<region> sample=Snare LH 12-norm.wav  lovel=109  hivel=127  seq_position=3  seq_length=3
+
+
+<group> group_label=RH Hit  loop_mode=one_shot  lokey=d4  hikey=d#4  pitch_keycenter=d4  seq_length=2
+<region> sample=Snare RH 01-norm.wav  lovel=1    hivel=29   seq_position=1
+<region> sample=Snare RH 02-norm.wav  lovel=1    hivel=29   seq_position=2
+<region> sample=Snare RH 02-norm.wav  lovel=30   hivel=54   seq_position=1
+<region> sample=Snare RH 03-norm.wav  lovel=30   hivel=54   seq_position=2
+<region> sample=Snare RH 04-norm.wav  lovel=55   hivel=73   seq_position=1
+<region> sample=Snare RH 05-norm.wav  lovel=55   hivel=73   seq_position=2
+<region> sample=Snare RH 05-norm.wav  lovel=74   hivel=92   seq_position=1
+<region> sample=Snare RH 06-norm.wav  lovel=74   hivel=92   seq_position=2
+<region> sample=Snare RH 07-norm.wav  lovel=93   hivel=108  seq_position=1
+<region> sample=Snare RH 08-norm.wav  lovel=93   hivel=108  seq_position=2
+<region> sample=Snare RH 09-norm.wav  lovel=109  hivel=127  seq_position=1  seq_length=3
+<region> sample=Snare RH 10-norm.wav  lovel=109  hivel=127  seq_position=2  seq_length=3
+<region> sample=Snare RH 11-norm.wav  lovel=109  hivel=127  seq_position=3  seq_length=3
+
+<group> group_label=Rolls  ampeg_release=1  volume=9
+<region> sample=Snare Roll 01.wav        key=f4
+<region> sample=Snare Roll 02.wav        key=g4
+<region> sample=Snare Roll 03.wav        key=a4
+<region> sample=Snare Roll 04.wav        key=b4
+<region> sample=Snare Roll Short 01.wav  key=c5

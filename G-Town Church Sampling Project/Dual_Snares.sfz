@@ -1,0 +1,140 @@
+<control>
+default_path=samples/Dual_Snares/
+label_cc20=Snare 1 Pan  set_cc20=64
+label_cc21=Snare 2 Pan  set_cc21=64
+
+<global> amp_veltrack=99.5
+
+<master> pan=-100  pan_oncc21=200
+
+<group> group_label=Snare 2 LH Hit  loop_mode=one_shot  key=c3  seq_length=2
+<region> sample=dual snare 02 lh 01.wav  lovel=1    hivel=53   seq_position=1
+<region> sample=dual snare 02 lh 02.wav  lovel=1    hivel=53   seq_position=2
+<region> sample=dual snare 02 lh 03.wav  lovel=54   hivel=70   seq_position=1
+<region> sample=dual snare 02 lh 04.wav  lovel=54   hivel=70   seq_position=2
+<region> sample=dual snare 02 lh 05.wav  lovel=71   hivel=86   seq_position=1
+<region> sample=dual snare 02 lh 06.wav  lovel=71   hivel=86   seq_position=2
+<region> sample=dual snare 02 lh 07.wav  lovel=87   hivel=96   seq_position=1
+<region> sample=dual snare 02 lh 08.wav  lovel=87   hivel=96   seq_position=2
+<region> sample=dual snare 02 lh 09.wav  lovel=97   hivel=104  seq_position=1
+<region> sample=dual snare 02 lh 10.wav  lovel=97   hivel=104  seq_position=2
+<region> sample=dual snare 02 lh 11.wav  lovel=105  hivel=112  seq_position=1
+<region> sample=dual snare 02 lh 12.wav  lovel=105  hivel=112  seq_position=2
+<region> sample=dual snare 02 lh 13.wav  lovel=113  hivel=120  seq_position=1  volume=1
+<region> sample=dual snare 02 lh 14.wav  lovel=113  hivel=120  seq_position=2  volume=1
+<region> sample=dual snare 02 lh 15.wav  lovel=121  hivel=127  seq_position=1  volume=2
+<region> sample=dual snare 02 lh 16.wav  lovel=121  hivel=127  seq_position=2  volume=2
+
+
+<group> group_label=Snare 2 RH Hit  loop_mode=one_shot  key=d3  seq_length=2
+<region> sample=dual snare 02 rh 01.wav  lovel=1    hivel=45   seq_position=1
+<region> sample=dual snare 02 rh 02.wav  lovel=1    hivel=45   seq_position=2
+<region> sample=dual snare 02 rh 03.wav  lovel=46   hivel=61   seq_position=1
+<region> sample=dual snare 02 rh 04.wav  lovel=46   hivel=61   seq_position=2
+<region> sample=dual snare 02 rh 05.wav  lovel=62   hivel=75   seq_position=1
+<region> sample=dual snare 02 rh 07.wav  lovel=62   hivel=75   seq_position=2
+<region> sample=dual snare 02 rh 06.wav  lovel=76   hivel=87   seq_position=1
+<region> sample=dual snare 02 rh 08.wav  lovel=76   hivel=87   seq_position=2
+<region> sample=dual snare 02 rh 09.wav  lovel=88   hivel=99   seq_position=1
+<region> sample=dual snare 02 rh 10.wav  lovel=88   hivel=99   seq_position=2
+<region> sample=dual snare 02 rh 11.wav  lovel=100  hivel=110  seq_position=1
+<region> sample=dual snare 02 rh 12.wav  lovel=100  hivel=110  seq_position=2
+<region> sample=dual snare 02 rh 13.wav  lovel=111  hivel=119  seq_position=1  volume=1
+<region> sample=dual snare 02 rh 14.wav  lovel=111  hivel=119  seq_position=2  volume=1
+<region> sample=dual snare 02 rh 15.wav  lovel=120  hivel=127  seq_position=1  volume=2
+<region> sample=dual snare 02 rh 16.wav  lovel=120  hivel=127  seq_position=2  volume=2
+
+
+<group> group_label=Snare 2 Flams  loop_mode=one_shot  key=e3  seq_length=2
+<region> sample=dual snare 02 flam 01.wav  lovel=1    hivel=39   seq_position=1
+<region> sample=dual snare 02 flam 02.wav  lovel=1    hivel=39   seq_position=2
+<region> sample=dual snare 02 flam 03.wav  lovel=40   hivel=58   seq_position=1
+<region> sample=dual snare 02 flam 04.wav  lovel=40   hivel=58   seq_position=2
+<region> sample=dual snare 02 flam 05.wav  lovel=59   hivel=70   seq_position=1
+<region> sample=dual snare 02 flam 06.wav  lovel=59   hivel=70   seq_position=2
+<region> sample=dual snare 02 flam 07.wav  lovel=71   hivel=82   seq_position=1
+<region> sample=dual snare 02 flam 08.wav  lovel=71   hivel=82   seq_position=2
+<region> sample=dual snare 02 flam 09.wav  lovel=83   hivel=96   seq_position=1
+<region> sample=dual snare 02 flam 10.wav  lovel=83   hivel=96   seq_position=2
+<region> sample=dual snare 02 flam 11.wav  lovel=97   hivel=107  seq_position=1
+<region> sample=dual snare 02 flam 12.wav  lovel=97   hivel=107  seq_position=2
+<region> sample=dual snare 02 flam 13.wav  lovel=108  hivel=117  seq_position=1  volume=1
+<region> sample=dual snare 02 flam 14.wav  lovel=108  hivel=117  seq_position=2  volume=1
+<region> sample=dual snare 02 flam 15.wav  lovel=118  hivel=127  seq_position=1  volume=2
+<region> sample=dual snare 02 flam 16.wav  lovel=118  hivel=127  seq_position=2  volume=2
+
+
+<group> group_label=Snare 2 Rolls  ampeg_release=0.7  volume=-3
+<region> sample=dual snare 02 roll 01.wav  key=f3
+<region> sample=dual snare 02 roll 02.wav  key=g3
+<region> sample=dual snare 02 roll 03.wav  key=a3
+<region> sample=dual snare 02 roll 04.wav  key=b3
+<region> sample=dual snare 02 roll 05.wav  key=c4
+<region> sample=dual snare 02 roll 06.wav  key=d4
+
+<master> pan=-100  pan_oncc20=200
+
+<group> group_label=Snare 1 LH Hit  loop_mode=one_shot  key=c5  seq_length=2
+<region> sample=dual snare lh 01.wav  lovel=1    hivel=52   seq_position=1
+<region> sample=dual snare lh 02.wav  lovel=1    hivel=52   seq_position=2
+<region> sample=dual snare lh 03.wav  lovel=53   hivel=67   seq_position=1
+<region> sample=dual snare lh 04.wav  lovel=53   hivel=67   seq_position=2
+<region> sample=dual snare lh 05.wav  lovel=68   hivel=82   seq_position=1
+<region> sample=dual snare lh 06.wav  lovel=68   hivel=82   seq_position=2
+<region> sample=dual snare lh 07.wav  lovel=83   hivel=95   seq_position=1
+<region> sample=dual snare lh 08.wav  lovel=83   hivel=95   seq_position=2
+<region> sample=dual snare lh 09.wav  lovel=96   hivel=104  seq_position=1
+<region> sample=dual snare lh 10.wav  lovel=96   hivel=104  seq_position=2
+<region> sample=dual snare lh 11.wav  lovel=105  hivel=112  seq_position=1
+<region> sample=dual snare lh 12.wav  lovel=105  hivel=112  seq_position=2
+<region> sample=dual snare lh 13.wav  lovel=113  hivel=120  seq_position=1  volume=1
+<region> sample=dual snare lh 14.wav  lovel=113  hivel=120  seq_position=2  volume=1
+<region> sample=dual snare lh 15.wav  lovel=121  hivel=127  seq_position=1  volume=2
+<region> sample=dual snare lh 16.wav  lovel=121  hivel=127  seq_position=2  volume=2
+
+
+<group> group_label=Snare 1 RH Hit  loop_mode=one_shot  key=d5  seq_length=2
+<region> sample=dual snare rh 01.wav  lovel=1    hivel=65   seq_position=1
+<region> sample=dual snare rh 02.wav  lovel=1    hivel=65   seq_position=2
+<region> sample=dual snare rh 03.wav  lovel=66   hivel=79   seq_position=1
+<region> sample=dual snare rh 04.wav  lovel=66   hivel=79   seq_position=2
+<region> sample=dual snare rh 05.wav  lovel=80   hivel=91   seq_position=1
+<region> sample=dual snare rh 07.wav  lovel=80   hivel=91   seq_position=2
+<region> sample=dual snare rh 06.wav  lovel=92   hivel=101  seq_position=1
+<region> sample=dual snare rh 08.wav  lovel=92   hivel=101  seq_position=2
+<region> sample=dual snare rh 09.wav  lovel=102  hivel=109  seq_position=1
+<region> sample=dual snare rh 10.wav  lovel=102  hivel=109  seq_position=2
+<region> sample=dual snare rh 11.wav  lovel=110  hivel=116  seq_position=1
+<region> sample=dual snare rh 12.wav  lovel=110  hivel=116  seq_position=2
+<region> sample=dual snare rh 13.wav  lovel=117  hivel=122  seq_position=1  volume=1
+<region> sample=dual snare rh 14.wav  lovel=117  hivel=122  seq_position=2  volume=1
+<region> sample=dual snare rh 15.wav  lovel=123  hivel=127  seq_position=1  volume=2
+<region> sample=dual snare rh 16.wav  lovel=123  hivel=127  seq_position=2  volume=2
+
+
+<group> group_label=Snare 1 Flams  loop_mode=one_shot  key=e5  seq_length=2
+<region> sample=dual snare flam 01.wav  lovel=1    hivel=37   seq_position=1
+<region> sample=dual snare flam 02.wav  lovel=1    hivel=37   seq_position=2
+<region> sample=dual snare flam 03.wav  lovel=38   hivel=56   seq_position=1
+<region> sample=dual snare flam 04.wav  lovel=38   hivel=56   seq_position=2
+<region> sample=dual snare flam 05.wav  lovel=57   hivel=74   seq_position=1
+<region> sample=dual snare flam 06.wav  lovel=57   hivel=74   seq_position=2
+<region> sample=dual snare flam 07.wav  lovel=75   hivel=89   seq_position=1
+<region> sample=dual snare flam 08.wav  lovel=75   hivel=89   seq_position=2
+<region> sample=dual snare flam 09.wav  lovel=90   hivel=102  seq_position=1
+<region> sample=dual snare flam 10.wav  lovel=90   hivel=102  seq_position=2
+<region> sample=dual snare flam 11.wav  lovel=103  hivel=112  seq_position=1
+<region> sample=dual snare flam 12.wav  lovel=103  hivel=112  seq_position=2
+<region> sample=dual snare flam 13.wav  lovel=113  hivel=120  seq_position=1  volume=1
+<region> sample=dual snare flam 14.wav  lovel=113  hivel=120  seq_position=2  volume=1
+<region> sample=dual snare flam 15.wav  lovel=121  hivel=127  seq_position=1  volume=2
+<region> sample=dual snare flam 16.wav  lovel=121  hivel=127  seq_position=2  volume=2
+
+
+<group> group_label=Snare 1 Rolls  ampeg_release=0.7  volume=-3
+<region> sample=dual snare 01 roll 01.wav  key=f5
+<region> sample=dual snare 01 roll 02.wav  key=g5
+<region> sample=dual snare 01 roll 03.wav  key=a5
+<region> sample=dual snare 01 roll 04.wav  key=b5
+<region> sample=dual snare 01 roll 05.wav  key=c6
+<region> sample=dual snare 01 roll 06.wav  key=d6

@@ -1,0 +1,4 @@
+<region> sample=light001.wav  lovel=1    hivel=90
+<region> sample=light002.wav  lovel=91   hivel=107
+<region> sample=light003.wav  lovel=108  hivel=121
+<region> sample=light004.wav  lovel=122  hivel=127

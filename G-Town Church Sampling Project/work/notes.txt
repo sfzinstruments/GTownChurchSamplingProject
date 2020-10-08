@@ -1,0 +1,1 @@
+perhaps implement pitch bend to allow changing pitch of drums?

@@ -1,0 +1,49 @@
+<control>
+default_path=samples/Open_Snare/
+
+<global> amp_veltrack=98.5  pitch_keytrack=0
+
+<group> group_label=LH Hit  loop_mode=one_shot  lokey=c4  hikey=c#4
+<region> sample=open snare LH 01.wav  lovel=1    hivel=15
+<region> sample=open snare LH 02.wav  lovel=16   hivel=23
+<region> sample=open snare LH 03.wav  lovel=24   hivel=31
+<region> sample=open snare LH 04.wav  lovel=32   hivel=47
+<region> sample=open snare LH 05.wav  lovel=48   hivel=55
+<region> sample=open snare LH 06.wav  lovel=56   hivel=71
+<region> sample=open snare LH 07.wav  lovel=72   hivel=79
+<region> sample=open snare LH 08.wav  lovel=80   hivel=95
+<region> sample=open snare LH 09.wav  lovel=96   hivel=103
+<region> sample=open snare LH 10.wav  lovel=104  hivel=119
+<region> sample=open snare LH 11.wav  lovel=120  hivel=127
+
+
+<group> group_label=RH Hit  loop_mode=one_shot  lokey=d4  hikey=d#4
+<region> sample=open snare RH 01.wav  lovel=1    hivel=15
+<region> sample=open snare RH 02.wav  lovel=16   hivel=23
+<region> sample=open snare RH 03.wav  lovel=24   hivel=39
+<region> sample=open snare RH 04.wav  lovel=40   hivel=47
+<region> sample=open snare RH 05.wav  lovel=48   hivel=63
+<region> sample=open snare RH 06.wav  lovel=64   hivel=71
+<region> sample=open snare RH 07.wav  lovel=72   hivel=87
+<region> sample=open snare RH 08.wav  lovel=88   hivel=95
+<region> sample=open snare RH 09.wav  lovel=96   hivel=111
+<region> sample=open snare RH 10.wav  lovel=112  hivel=119
+<region> sample=open snare RH 11.wav  lovel=120  hivel=127
+
+<group> group_label=Flam  loop_mode=one_shot  key=e4  volume=2
+<region> sample=open snare FLAM 01.wav  lovel=1    hivel=19
+<region> sample=open snare FLAM 02.wav  lovel=21   hivel=31
+<region> sample=open snare FLAM 03.wav  lovel=32   hivel=43
+<region> sample=open snare FLAM 04.wav  lovel=44   hivel=55
+<region> sample=open snare FLAM 05.wav  lovel=56   hivel=67
+<region> sample=open snare FLAM 06.wav  lovel=68   hivel=79
+<region> sample=open snare FLAM 07.wav  lovel=80   hivel=91
+<region> sample=open snare FLAM 08.wav  lovel=92   hivel=103
+<region> sample=open snare FLAM 09.wav  lovel=104  hivel=115
+<region> sample=open snare FLAM 10.wav  lovel=116  hivel=127
+
+<group> group_label=Rolls  ampeg_release=1
+<region> sample=open snare ROLL 01.wav  key=f4
+<region> sample=open snare ROLL 02.wav  key=g4
+<region> sample=open snare ROLL 03.wav  key=a4
+<region> sample=open snare ROLL 04.wav  key=b4

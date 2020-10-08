@@ -1,0 +1,73 @@
+<control>
+default_path=samples/Ensemble_Snares/
+
+<global> amp_veltrack=98.5
+
+<group> group_label=LH Hit  loop_mode=one_shot  key=c3  seq_length=2
+
+<region> sample=Ensemble Snares Left 01.wav  lovel=1    hivel=15   seq_position=1
+<region> sample=Ensemble Snares Left 02.wav  lovel=1    hivel=15   seq_position=2
+<region> sample=Ensemble Snares Left 03.wav  lovel=16   hivel=31   seq_position=1
+<region> sample=Ensemble Snares Left 04.wav  lovel=16   hivel=31   seq_position=2
+<region> sample=Ensemble Snares Left 05.wav  lovel=32   hivel=47   seq_position=1
+<region> sample=Ensemble Snares Left 06.wav  lovel=32   hivel=47   seq_position=2
+<region> sample=Ensemble Snares Left 07.wav  lovel=48   hivel=63   seq_position=1
+<region> sample=Ensemble Snares Left 08.wav  lovel=48   hivel=63   seq_position=2
+<region> sample=Ensemble Snares Left 09.wav  lovel=64   hivel=79   seq_position=1
+<region> sample=Ensemble Snares Left 10.wav  lovel=64   hivel=79   seq_position=2
+<region> sample=Ensemble Snares Left 11.wav  lovel=80   hivel=95   seq_position=1
+<region> sample=Ensemble Snares Left 12.wav  lovel=80   hivel=95   seq_position=2
+<region> sample=Ensemble Snares Left 13.wav  lovel=96   hivel=111  seq_position=1
+<region> sample=Ensemble Snares Left 14.wav  lovel=96   hivel=111  seq_position=2
+<region> sample=Ensemble Snares Left 15.wav  lovel=112  hivel=127  seq_position=1
+<region> sample=Ensemble Snares Left 16.wav  lovel=112  hivel=127  seq_position=2
+
+
+<group> group_label=RH Hit  loop_mode=one_shot  key=d3  seq_length=2
+
+<region> sample=Ensemble Snares Right 01.wav  lovel=1    hivel=15   seq_position=1
+<region> sample=Ensemble Snares Right 02.wav  lovel=1    hivel=15   seq_position=2
+<region> sample=Ensemble Snares Right 03.wav  lovel=16   hivel=31   seq_position=1
+<region> sample=Ensemble Snares Right 04.wav  lovel=16   hivel=31   seq_position=2
+<region> sample=Ensemble Snares Right 05.wav  lovel=32   hivel=47   seq_position=1
+<region> sample=Ensemble Snares Right 06.wav  lovel=32   hivel=47   seq_position=2
+<region> sample=Ensemble Snares Right 07.wav  lovel=48   hivel=63   seq_position=1
+<region> sample=Ensemble Snares Right 08.wav  lovel=48   hivel=63   seq_position=2
+<region> sample=Ensemble Snares Right 09.wav  lovel=64   hivel=79   seq_position=1
+<region> sample=Ensemble Snares Right 10.wav  lovel=64   hivel=79   seq_position=2
+<region> sample=Ensemble Snares Right 11.wav  lovel=80   hivel=95   seq_position=1
+<region> sample=Ensemble Snares Right 12.wav  lovel=80   hivel=95   seq_position=2
+<region> sample=Ensemble Snares Right 14.wav  lovel=96   hivel=111  seq_position=1
+<region> sample=Ensemble Snares Right 15.wav  lovel=96   hivel=111  seq_position=2
+<region> sample=Ensemble Snares Right 16.wav  lovel=112  hivel=127  seq_position=1
+<region> sample=Ensemble Snares Right 13.wav  lovel=112  hivel=127  seq_position=2
+
+
+<group> group_label=Flams  loop_mode=one_shot  key=e3  seq_length=2  volume=2
+
+<region> sample=Ensemble Snares Flam 01.wav  lovel=1    hivel=39   seq_position=1
+<region> sample=Ensemble Snares Flam 02.wav  lovel=1    hivel=39   seq_position=2
+<region> sample=Ensemble Snares Flam 03.wav  lovel=40   hivel=58   seq_position=1
+<region> sample=Ensemble Snares Flam 04.wav  lovel=40   hivel=58   seq_position=2
+<region> sample=Ensemble Snares Flam 05.wav  lovel=59   hivel=70   seq_position=1
+<region> sample=Ensemble Snares Flam 06.wav  lovel=59   hivel=70   seq_position=2
+<region> sample=Ensemble Snares Flam 07.wav  lovel=71   hivel=82   seq_position=1
+<region> sample=Ensemble Snares Flam 08.wav  lovel=71   hivel=82   seq_position=2
+<region> sample=Ensemble Snares Flam 09.wav  lovel=83   hivel=96   seq_position=1
+<region> sample=Ensemble Snares Flam 10.wav  lovel=83   hivel=96   seq_position=2
+<region> sample=Ensemble Snares Flam 11.wav  lovel=97   hivel=107  seq_position=1
+<region> sample=Ensemble Snares Flam 12.wav  lovel=97   hivel=107  seq_position=2
+<region> sample=Ensemble Snares Flam 13.wav  lovel=108  hivel=117  seq_position=1
+<region> sample=Ensemble Snares Flam 14.wav  lovel=108  hivel=117  seq_position=2
+<region> sample=Ensemble Snares Flam 15.wav  lovel=118  hivel=127  seq_position=1
+<region> sample=Ensemble Snares Flam 16.wav  lovel=118  hivel=127  seq_position=2
+
+
+<group> group_label=Rolls  ampeg_release=1
+
+<region> sample=Ensemble Snares Roll 02.wav  key=g3  lovel=1    hivel=52   volume=16.71
+<region> sample=Ensemble Snares Roll 01.wav  key=g3  lovel=53   hivel=92   volume=2
+<region> sample=Ensemble Snares Roll 03.wav  key=g3  lovel=93   hivel=127  volume=-3
+
+<region> sample=Ensemble Snares Roll Swell 01.wav  key=a3
+<region> sample=Ensemble Snares Roll Swell 02.wav  key=b3

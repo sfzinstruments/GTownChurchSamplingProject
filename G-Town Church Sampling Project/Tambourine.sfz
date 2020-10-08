@@ -1,0 +1,68 @@
+<control>
+default_path=samples/Tambourine/
+
+<global> amp_veltrack=98.5  pitch_keytrack=0
+
+
+<group> group_label=Individual Hits  loop_mode=one_shot  amp_veltrack=0
+<region> sample=tamb hit 01.wav  key=36
+<region> sample=tamb hit 02.wav  key=37
+<region> sample=tamb hit 03.wav  key=38
+<region> sample=tamb hit 04.wav  key=39
+<region> sample=tamb hit 05.wav  key=40
+<region> sample=tamb hit 06.wav  key=41
+<region> sample=tamb hit 07.wav  key=42  offset=1213
+<region> sample=tamb hit 08.wav  key=43
+<region> sample=tamb hit 09.wav  key=44
+<region> sample=tamb hit 10.wav  key=45
+<region> sample=tamb hit 11.wav  key=46
+<region> sample=tamb hit 12.wav  key=47
+<region> sample=tamb hit 14.wav  key=48
+<region> sample=tamb hit 15.wav  key=49
+<region> sample=tamb hit 16.wav  key=50
+<region> sample=tamb hit 17.wav  key=51
+<region> sample=tamb hit 18.wav  key=52
+<region> sample=tamb hit 19.wav  key=53
+<region> sample=tamb hit 20.wav  key=54
+<region> sample=tamb hit 21.wav  key=55
+<region> sample=tamb hit 22.wav  key=56
+<region> sample=tamb hit 23.wav  key=57
+<region> sample=tamb hit 24.wav  key=58
+<region> sample=tamb hit 25.wav  key=59
+
+
+<group> group_label=Hit Light (round-robin)  loop_mode=one_shot  lokey=60  hikey=62  group_volume=-2.5
+<region> sample=tamb hit 01.wav  lovel=1    hivel=40   seq_length=2  seq_position=1  volume=21.811
+<region> sample=tamb hit 03.wav  lovel=1    hivel=40   seq_length=2  seq_position=2  volume=18.622
+<region> sample=tamb hit 02.wav  lovel=41   hivel=77   seq_length=2  seq_position=1  volume=18.903
+<region> sample=tamb hit 04.wav  lovel=41   hivel=77   seq_length=2  seq_position=2  volume=16.675
+<region> sample=tamb hit 05.wav  lovel=78   hivel=90   seq_length=2  seq_position=1  volume=15.285
+<region> sample=tamb hit 06.wav  lovel=78   hivel=90   seq_length=2  seq_position=2  volume=11.828
+<region> sample=tamb hit 09.wav  lovel=91   hivel=102  seq_length=3  seq_position=1  volume=11.3
+<region> sample=tamb hit 10.wav  lovel=91   hivel=102  seq_length=3  seq_position=2  volume=7.891
+<region> sample=tamb hit 24.wav  lovel=91   hivel=102  seq_length=3  seq_position=3  volume=5.369
+<region> sample=tamb hit 14.wav  lovel=103  hivel=114  seq_length=2  seq_position=1  volume=7.362
+<region> sample=tamb hit 16.wav  lovel=103  hivel=114  seq_length=2  seq_position=2  volume=6.493
+<region> sample=tamb hit 18.wav  lovel=115  hivel=127  seq_length=3  seq_position=1  volume=5.189
+<region> sample=tamb hit 20.wav  lovel=115  hivel=127  seq_length=3  seq_position=2  volume=5.052
+<region> sample=tamb hit 23.wav  lovel=115  hivel=127  seq_length=3  seq_position=3  volume=3.073
+
+
+<group> group_label=Hit Hard (round-robin)  loop_mode=one_shot  lokey=64  hikey=65  seq_length=2
+<region> sample=tamb hit 07.wav  lovel=1    hivel=50   seq_position=1  volume=11.216  offset=1213
+<region> sample=tamb hit 08.wav  lovel=1    hivel=50   seq_position=2  volume=10.365
+<region> sample=tamb hit 11.wav  lovel=51   hivel=70   seq_position=1  volume=8.668
+<region> sample=tamb hit 12.wav  lovel=51   hivel=70   seq_position=2  volume=8.144
+<region> sample=tamb hit 15.wav  lovel=71   hivel=90   seq_position=1  volume=6.474
+<region> sample=tamb hit 17.wav  lovel=71   hivel=90   seq_position=2  volume=6.021
+<region> sample=tamb hit 19.wav  lovel=91   hivel=110  seq_position=1  volume=2.616
+<region> sample=tamb hit 21.wav  lovel=91   hivel=110  seq_position=2  volume=2.847
+<region> sample=tamb hit 22.wav  lovel=111  hivel=127  seq_position=1  volume=1.083
+<region> sample=tamb hit 25.wav  lovel=111  hivel=127  seq_position=2  volume=1.367
+
+
+<group> group_label=Rattles and Shakes  ampeg_release=1
+<region> sample=tamb effect.wav    key=67
+<region> sample=tamb shake 01.wav  key=69
+<region> sample=tamb shake 02.wav  key=71
+<region> sample=tamb shake 03.wav  key=72

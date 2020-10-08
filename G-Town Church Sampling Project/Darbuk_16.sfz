@@ -1,0 +1,225 @@
+<control>
+default_path=samples/Darbuk_16/
+
+
+<group> group_label=Phrases  ampeg_release=1.7
+<region> sample=Darbuka Phrase 05.wav  key=c2
+<region> sample=Darbuka Phrase 07.wav  key=d2
+<region> sample=Darbuka Phrase 11.wav  key=e2
+<region> sample=Darbuka Phrase 10.wav  key=f2
+<region> sample=Darbuka Phrase 09.wav  key=g2
+<region> sample=Darbuka Phrase 12.wav  key=a2
+<region> sample=Darbuka Phrase 02.wav  key=b2
+
+
+<group> group_label=Bass Hit (auto LH/RH)  loop_mode=one_shot  lokey=c3  hikey=d3  pitch_keytrack=0  seq_length=2  seq_position=1
+<region> sample=Darbuka Bass Hit 01.wav  lovel=1    hivel=65
+<region> sample=Darbuka Bass Hit 10.wav  lovel=66   hivel=74
+<region> sample=Darbuka Bass Hit 10.wav  lovel=75   hivel=81
+<region> sample=Darbuka Bass Hit 11.wav  lovel=82   hivel=93
+<region> sample=Darbuka Bass Hit 11.wav  lovel=94   hivel=97
+<region> sample=Darbuka Bass Hit 07.wav  lovel=98   hivel=108
+<region> sample=Darbuka Bass Hit 07.wav  lovel=109  hivel=110
+<region> sample=Darbuka Bass Hit 08.wav  lovel=111  hivel=119
+<region> sample=Darbuka Bass Hit 08.wav  lovel=120  hivel=120
+<region> sample=Darbuka Bass Hit 06.wav  lovel=121  hivel=127
+
+<group> group_label=Bass Hit (auto LH/RH)  loop_mode=one_shot  lokey=c3  hikey=d3  pitch_keytrack=0  seq_length=2  seq_position=2
+<region> sample=Darbuka Bass Hit 02.wav  lovel=1    hivel=65
+<region> sample=Darbuka Bass Hit 02.wav  lovel=66   hivel=74
+<region> sample=Darbuka Bass Hit 03.wav  lovel=75   hivel=81
+<region> sample=Darbuka Bass Hit 03.wav  lovel=82   hivel=93
+<region> sample=Darbuka Bass Hit 04.wav  lovel=94   hivel=97
+<region> sample=Darbuka Bass Hit 04.wav  lovel=98   hivel=108
+<region> sample=Darbuka Bass Hit 09.wav  lovel=109  hivel=110
+<region> sample=Darbuka Bass Hit 09.wav  lovel=111  hivel=119
+<region> sample=Darbuka Bass Hit 05.wav  lovel=120  hivel=120
+<region> sample=Darbuka Bass Hit 05.wav  lovel=121  hivel=127
+
+
+<group> group_label=Finger (auto LH/RH)  loop_mode=one_shot  lokey=e3  hikey=f3  pitch_keytrack=0  seq_length=2  seq_position=1
+<region> sample=Darbuka Finger Soft 01.wav  lovel=1    hivel=25
+<region> sample=Darbuka Finger Soft 03.wav  lovel=26   hivel=29
+<region> sample=Darbuka Finger Soft 03.wav  lovel=30   hivel=35
+<region> sample=Darbuka Finger Soft 05.wav  lovel=36   hivel=44
+<region> sample=Darbuka Finger Soft 07.wav  lovel=45   hivel=53
+<region> sample=Darbuka Finger Soft 09.wav  lovel=54   hivel=58
+<region> sample=Darbuka Finger Soft 11.wav  lovel=59   hivel=63
+<region> sample=Darbuka Finger 05.wav  lovel=64   hivel=76
+<region> sample=Darbuka Finger 03.wav  lovel=77   hivel=88
+<region> sample=Darbuka Finger 01.wav  lovel=89   hivel=101
+<region> sample=Darbuka Finger 09.wav  lovel=102  hivel=113
+<region> sample=Darbuka Finger 07.wav  lovel=114  hivel=127
+
+<group> group_label=Finger (auto LH/RH)  loop_mode=one_shot  lokey=e3  hikey=f3  pitch_keytrack=0  seq_length=2  seq_position=2
+<region> sample=Darbuka Finger Soft 02.wav  lovel=1    hivel=25
+<region> sample=Darbuka Finger Soft 02.wav  lovel=26   hivel=29
+<region> sample=Darbuka Finger Soft 04.wav  lovel=30   hivel=35
+<region> sample=Darbuka Finger Soft 04.wav  lovel=36   hivel=44
+<region> sample=Darbuka Finger Soft 06.wav  lovel=45   hivel=53
+<region> sample=Darbuka Finger Soft 08.wav  lovel=54   hivel=58
+<region> sample=Darbuka Finger Soft 10.wav  lovel=59   hivel=63
+<region> sample=Darbuka Finger 02.wav  lovel=64   hivel=76
+<region> sample=Darbuka Finger 04.wav  lovel=77   hivel=88
+<region> sample=Darbuka Finger 06.wav  lovel=89   hivel=101
+<region> sample=Darbuka Finger 10.wav  lovel=102  hivel=113
+<region> sample=Darbuka Finger 08.wav  lovel=114  hivel=127
+
+
+<group> group_label=Finger Tip  loop_mode=one_shot  lokey=g3  hikey=g#3  pitch_keytrack=0  lovel=1  hivel=79  seq_length=8
+<region> sample=Darbuka Finger Tip 04.wav  seq_position=1
+<region> sample=Darbuka Finger Tip 02.wav  seq_position=2
+<region> sample=Darbuka Finger Tip 03.wav  seq_position=3
+<region> sample=Darbuka Finger Tip 04.wav  seq_position=4
+<region> sample=Darbuka Finger Tip 02.wav  seq_position=5
+<region> sample=Darbuka Finger Tip 04.wav  seq_position=6
+<region> sample=Darbuka Finger Tip 03.wav  seq_position=7
+<region> sample=Darbuka Finger Tip 02.wav  seq_position=8
+
+<group> group_label=Finger Tip  loop_mode=one_shot  lokey=g3  hikey=g#3  pitch_keytrack=0  lovel=80  hivel=127  seq_length=8
+<region> sample=Darbuka Finger Tip 03.wav  seq_position=1
+<region> sample=Darbuka Finger Tip 01.wav  seq_position=2
+<region> sample=Darbuka Finger Tip 05.wav  seq_position=3
+<region> sample=Darbuka Finger Tip 03.wav  seq_position=4
+<region> sample=Darbuka Finger Tip 01.wav  seq_position=5
+<region> sample=Darbuka Finger Tip 03.wav  seq_position=6
+<region> sample=Darbuka Finger Tip 05.wav  seq_position=7
+<region> sample=Darbuka Finger Tip 01.wav  seq_position=8
+
+
+<group> group_label=Finger Flam  loop_mode=one_shot  key=a3  lovel=1  hivel=59  seq_length=8
+<region> sample=Darbuka Finger Soft Flam 01.wav  seq_position=1
+<region> sample=Darbuka Finger Soft Flam 02.wav  seq_position=2
+<region> sample=Darbuka Finger Soft Flam 03.wav  seq_position=3
+<region> sample=Darbuka Finger Soft Flam 01.wav  seq_position=4
+<region> sample=Darbuka Finger Soft Flam 02.wav  seq_position=5
+<region> sample=Darbuka Finger Soft Flam 01.wav  seq_position=6
+<region> sample=Darbuka Finger Soft Flam 03.wav  seq_position=7
+<region> sample=Darbuka Finger Soft Flam 02.wav  seq_position=8
+
+<group> group_label=Finger Flam  loop_mode=one_shot  key=a3  lovel=60  hivel=82  seq_length=2
+<region> sample=Darbuka Finger Flam 07.wav  seq_position=1
+<region> sample=Darbuka Finger Flam 02.wav  seq_position=2
+
+<group> group_label=Finger Flam  loop_mode=one_shot  key=a3  lovel=83  hivel=104  seq_length=8
+<region> sample=Darbuka Finger Flam 03.wav  seq_position=1
+<region> sample=Darbuka Finger Flam 04.wav  seq_position=2
+<region> sample=Darbuka Finger Flam 05.wav  seq_position=3
+<region> sample=Darbuka Finger Flam 03.wav  seq_position=4
+<region> sample=Darbuka Finger Flam 04.wav  seq_position=5
+<region> sample=Darbuka Finger Flam 03.wav  seq_position=6
+<region> sample=Darbuka Finger Flam 05.wav  seq_position=7
+<region> sample=Darbuka Finger Flam 04.wav  seq_position=8
+
+<group> group_label=Finger Flam  loop_mode=one_shot  key=a3  lovel=105  hivel=127  seq_length=2
+<region> sample=Darbuka Finger Flam 06.wav  seq_position=1
+<region> sample=Darbuka Finger Flam 01.wav  seq_position=2
+
+
+<group> group_label=Finger Soft  loop_mode=one_shot  lokey=b3  hikey=c4  pitch_keytrack=0  seq_length=2  seq_position=1  group_volume=-13.82
+<region> sample=Darbuka Finger Soft 01.wav  lovel=1    hivel=50
+<region> sample=Darbuka Finger Soft 03.wav  lovel=51   hivel=59
+<region> sample=Darbuka Finger Soft 03.wav  lovel=60   hivel=71
+<region> sample=Darbuka Finger Soft 05.wav  lovel=72   hivel=87
+<region> sample=Darbuka Finger Soft 05.wav  lovel=88   hivel=89
+<region> sample=Darbuka Finger Soft 07.wav  lovel=90   hivel=106
+<region> sample=Darbuka Finger Soft 09.wav  lovel=107  hivel=118
+<region> sample=Darbuka Finger Soft 11.wav  lovel=119  hivel=127
+
+<group> group_label=Finger Soft  loop_mode=one_shot  lokey=b3  hikey=c4  pitch_keytrack=0  seq_length=2  seq_position=2  group_volume=-13.82
+<region> sample=Darbuka Finger Soft 02.wav  lovel=1    hivel=50
+<region> sample=Darbuka Finger Soft 02.wav  lovel=51   hivel=59
+<region> sample=Darbuka Finger Soft 04.wav  lovel=60   hivel=71
+<region> sample=Darbuka Finger Soft 04.wav  lovel=72   hivel=87
+<region> sample=Darbuka Finger Soft 06.wav  lovel=88   hivel=89
+<region> sample=Darbuka Finger Soft 06.wav  lovel=90   hivel=106
+<region> sample=Darbuka Finger Soft 08.wav  lovel=107  hivel=118
+<region> sample=Darbuka Finger Soft 10.wav  lovel=119  hivel=127
+
+
+<group> group_label=Finger Soft Flam  loop_mode=one_shot  key=d4  seq_length=8  group_volume=-13.82
+<region> sample=Darbuka Finger Soft Flam 01.wav  seq_position=1
+<region> sample=Darbuka Finger Soft Flam 02.wav  seq_position=2
+<region> sample=Darbuka Finger Soft Flam 03.wav  seq_position=3
+<region> sample=Darbuka Finger Soft Flam 01.wav  seq_position=4
+<region> sample=Darbuka Finger Soft Flam 02.wav  seq_position=5
+<region> sample=Darbuka Finger Soft Flam 01.wav  seq_position=6
+<region> sample=Darbuka Finger Soft Flam 03.wav  seq_position=7
+<region> sample=Darbuka Finger Soft Flam 02.wav  seq_position=8
+
+
+<group> group_label=Finger Soft Triple  loop_mode=one_shot  key=e4  group_volume=-13.73
+<region> sample=Darbuka Finger Soft Triple 03.wav  lovel=1    hivel=64
+<region> sample=Darbuka Finger Soft Triple 01.wav  lovel=65   hivel=92
+<region> sample=Darbuka Finger Soft Triple 02.wav  lovel=93   hivel=115
+<region> sample=Darbuka Finger Soft Triple 04.wav  lovel=116  hivel=127
+
+
+<group> group_label=Bass Damped  loop_mode=one_shot  key=f4  lovel=1  hivel=62  seq_length=8
+<region> sample=Darbuka Bass Damped 05.wav  seq_position=1
+<region> sample=Darbuka Bass Damped 04.wav  seq_position=2
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=3
+<region> sample=Darbuka Bass Damped 05.wav  seq_position=4
+<region> sample=Darbuka Bass Damped 04.wav  seq_position=5
+<region> sample=Darbuka Bass Damped 05.wav  seq_position=6
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=7
+<region> sample=Darbuka Bass Damped 04.wav  seq_position=8
+
+<group> group_label=Bass Damped  loop_mode=one_shot  key=f4  lovel=63  hivel=105  seq_length=8
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=1
+<region> sample=Darbuka Bass Damped 02.wav  seq_position=2
+<region> sample=Darbuka Bass Damped 04.wav  seq_position=3
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=4
+<region> sample=Darbuka Bass Damped 02.wav  seq_position=5
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=6
+<region> sample=Darbuka Bass Damped 04.wav  seq_position=7
+<region> sample=Darbuka Bass Damped 02.wav  seq_position=8
+
+<group> group_label=Bass Damped  loop_mode=one_shot  key=f4  lovel=106  hivel=127  seq_length=8
+<region> sample=Darbuka Bass Damped 03.wav  seq_position=1
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=2
+<region> sample=Darbuka Bass Damped 02.wav  seq_position=3
+<region> sample=Darbuka Bass Damped 03.wav  seq_position=4
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=5
+<region> sample=Darbuka Bass Damped 03.wav  seq_position=6
+<region> sample=Darbuka Bass Damped 02.wav  seq_position=7
+<region> sample=Darbuka Bass Damped 01.wav  seq_position=8
+
+
+<group> group_label=Finger Damped  loop_mode=one_shot  key=g4  lovel=1  hivel=60  seq_length=2
+<region> sample=Darbuka Finger Damped 01.wav  seq_position=1
+<region> sample=Darbuka Finger Damped 02.wav  seq_position=2
+
+<group> group_label=Finger Damped  loop_mode=one_shot  key=g4  lovel=61  hivel=88  seq_length=2
+<region> sample=Darbuka Finger Damped 06.wav  seq_position=1
+<region> sample=Darbuka Finger Damped 03.wav  seq_position=2
+
+<group> group_label=Finger Damped  loop_mode=one_shot  key=g4  lovel=89  hivel=111  seq_length=2
+<region> sample=Darbuka Finger Damped 04.wav  seq_position=1
+<region> sample=Darbuka Finger Damped 05.wav  seq_position=2
+
+<group> group_label=Finger Damped  loop_mode=one_shot  key=g4  lovel=112  hivel=127  seq_length=2
+<region> sample=Darbuka Finger Damped 07.wav  seq_position=1
+<region> sample=Darbuka Finger Damped 08.wav  seq_position=2
+
+
+<group> group_label=Rolls  ampeg_release=0.7
+<region> sample=Darbuka Roll 01.wav  key=a4
+<region> sample=Darbuka Roll 02.wav  key=b4
+<region> sample=Darbuka Roll 03.wav  key=c5
+<region> sample=Darbuka Roll 04.wav  key=d5
+<region> sample=Darbuka Roll 05.wav  key=e5
+<region> sample=Darbuka Roll 06.wav  key=f5
+
+
+<group> group_label=Rubs  ampeg_release=0.7
+<region> sample=Darbuka Rub 01.wav  key=g5
+<region> sample=Darbuka Rub 03.wav  key=a5
+
+
+<group> group_label=Talking  ampeg_release=0.7
+<region> sample=Darbuka Talking 01.wav  key=b5
+<region> sample=Darbuka Talking 02.wav  key=c6
+<region> sample=Darbuka Talking 03.wav  key=d6
+<region> sample=Darbuka Talking 04.wav  key=e6
+<region> sample=Darbuka Talking 05.wav  key=f6

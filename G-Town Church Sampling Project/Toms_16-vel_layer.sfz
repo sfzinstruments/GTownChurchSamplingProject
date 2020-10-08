@@ -1,0 +1,134 @@
+#define $ROLL_RELEASE 0.7
+
+<control>
+default_path=samples/Toms_16-vel_layer/
+label_cc20=Tom 1 Pan  set_cc20=63
+label_cc21=Tom 2 Pan  set_cc21=63
+
+
+<global> pitch_keytrack=0  //amp_veltrack=98.5
+
+<group> group_label=Tom 1 Flams  loop_mode=one_shot  lokey=g3  hikey=g#3
+pan_oncc20=100  pan_curvecc20=1
+<region> sample=tom1FL01-norm.wav  lovel=1    hivel=31
+<region> sample=tom1FL02-norm.wav  lovel=32   hivel=64
+<region> sample=tom1FL03-norm.wav  lovel=65   hivel=76
+<region> sample=tom1FL04-norm.wav  lovel=77   hivel=85
+<region> sample=tom1FL05-norm.wav  lovel=86   hivel=93
+<region> sample=tom1FL06-norm.wav  lovel=94   hivel=99
+<region> sample=tom1FL07-norm.wav  lovel=100  hivel=105
+<region> sample=tom1FL08-norm.wav  lovel=106  hivel=110
+<region> sample=tom1FL09-norm.wav  lovel=111  hivel=114
+<region> sample=tom1FL10-norm.wav  lovel=115  hivel=117
+<region> sample=tom1FL11-norm.wav  lovel=118  hivel=120
+<region> sample=tom1FL12-norm.wav  lovel=121  hivel=127
+
+
+<group> group_label=Tom 1 Rolls  ampeg_release=$ROLL_RELEASE
+pan_oncc20=100  pan_curvecc20=1
+<region> sample=tom1ROLL01.wav  key=a3
+<region> sample=tom1ROLL02.wav  key=a#3
+<region> sample=tom1ROLL03.wav  key=b3
+
+
+<group> group_label=Tom 1 LH Hit  loop_mode=one_shot  lokey=c4  hikey=c#4
+pan_oncc20=100  pan_curvecc20=1
+<region> sample=tom1LH01-norm.wav  lovel=1    hivel=59
+<region> sample=tom1LH02-norm.wav  lovel=60   hivel=65
+<region> sample=tom1LH03-norm.wav  lovel=66   hivel=70
+<region> sample=tom1LH04-norm.wav  lovel=71   hivel=75
+<region> sample=tom1LH05-norm.wav  lovel=76   hivel=80
+<region> sample=tom1LH06-norm.wav  lovel=81   hivel=85
+<region> sample=tom1LH07-norm.wav  lovel=86   hivel=90
+<region> sample=tom1LH08-norm.wav  lovel=91   hivel=95
+<region> sample=tom1LH09-norm.wav  lovel=96   hivel=99
+<region> sample=tom1LH10-norm.wav  lovel=100  hivel=104
+<region> sample=tom1LH11-norm.wav  lovel=105  hivel=108
+<region> sample=tom1LH12-norm.wav  lovel=109  hivel=112
+<region> sample=tom1LH13-norm.wav  lovel=113  hivel=116
+<region> sample=tom1LH14-norm.wav  lovel=117  hivel=120
+<region> sample=tom1LH15-norm.wav  lovel=121  hivel=124
+<region> sample=tom1LH16-norm.wav  lovel=125  hivel=127
+
+
+<group> group_label=Tom 1 RH Hit  loop_mode=one_shot  lokey=d4  hikey=d#4
+pan_oncc20=100  pan_curvecc20=1
+<region> sample=tom1RH01-norm.wav  lovel=1    hivel=59
+<region> sample=tom1RH02-norm.wav  lovel=60   hivel=65
+<region> sample=tom1RH03-norm.wav  lovel=66   hivel=70
+<region> sample=tom1RH04-norm.wav  lovel=71   hivel=75
+<region> sample=tom1RH05-norm.wav  lovel=76   hivel=80
+<region> sample=tom1RH06-norm.wav  lovel=81   hivel=85
+<region> sample=tom1RH07-norm.wav  lovel=86   hivel=90
+<region> sample=tom1RH08-norm.wav  lovel=91   hivel=95
+<region> sample=tom1RH09-norm.wav  lovel=96   hivel=99
+<region> sample=tom1RH10-norm.wav  lovel=100  hivel=104
+<region> sample=tom1RH11-norm.wav  lovel=105  hivel=108
+<region> sample=tom1RH12-norm.wav  lovel=109  hivel=112
+<region> sample=tom1RH13-norm.wav  lovel=113  hivel=116
+<region> sample=tom1RH14-norm.wav  lovel=117  hivel=120
+<region> sample=tom1RH15-norm.wav  lovel=121  hivel=124
+<region> sample=tom1RH16-norm.wav  lovel=125  hivel=127
+
+
+<group> group_label=Tom 2 Flams  loop_mode=one_shot  lokey=g4  hikey=g#4
+pan_oncc21=100  pan_curvecc21=1
+<region> sample=tom2FL01-norm.wav  lovel=1    hivel=21
+<region> sample=tom2FL02-norm.wav  lovel=23   hivel=32
+<region> sample=tom2FL03-norm.wav  lovel=33   hivel=44
+<region> sample=tom2FL04-norm.wav  lovel=45   hivel=53
+<region> sample=tom2FL05-norm.wav  lovel=54   hivel=62
+<region> sample=tom2FL06-norm.wav  lovel=63   hivel=72
+<region> sample=tom2FL07-norm.wav  lovel=73   hivel=80
+<region> sample=tom2FL08-norm.wav  lovel=81   hivel=89
+<region> sample=tom2FL09-norm.wav  lovel=90   hivel=97
+<region> sample=tom2FL10-norm.wav  lovel=98   hivel=105
+<region> sample=tom2FL11-norm.wav  lovel=106  hivel=113
+<region> sample=tom2FL12-norm.wav  lovel=114  hivel=118
+<region> sample=tom2FL13-Norm.wav  lovel=119  hivel=127
+
+
+<group> group_label=Tom 2 Rolls  ampeg_release=$ROLL_RELEASE
+pan_oncc21=100  pan_curvecc21=1
+<region> sample=tom2ROLL01.wav  key=a4
+<region> sample=tom2ROLL02.wav  key=a#4
+<region> sample=tom2ROLL03.wav  key=b4
+
+
+<group> group_label=Tom 2 LH Hit  loop_mode=one_shot  lokey=c5  hikey=c#5
+pan_oncc21=100  pan_curvecc21=1
+<region> sample=tom2LH01-norm.wav  lovel=1    hivel=59
+<region> sample=tom2LH02-norm.wav  lovel=60   hivel=65
+<region> sample=tom2LH03-norm.wav  lovel=66   hivel=70
+<region> sample=tom2LH04-norm.wav  lovel=71   hivel=75
+<region> sample=tom2LH05-norm.wav  lovel=76   hivel=80
+<region> sample=tom2LH06-norm.wav  lovel=81   hivel=85
+<region> sample=tom2LH07-norm.wav  lovel=86   hivel=90
+<region> sample=tom2LH08-norm.wav  lovel=91   hivel=95
+<region> sample=tom2LH09-norm.wav  lovel=96   hivel=99
+<region> sample=tom2LH10-norm.wav  lovel=100  hivel=104
+<region> sample=tom2LH11-norm.wav  lovel=105  hivel=108
+<region> sample=tom2LH12-norm.wav  lovel=109  hivel=112
+<region> sample=tom2LH13-norm.wav  lovel=113  hivel=116
+<region> sample=tom2LH14-norm.wav  lovel=117  hivel=120
+<region> sample=tom2LH15-norm.wav  lovel=121  hivel=124
+<region> sample=tom2LH16-norm.wav  lovel=125  hivel=127
+
+
+<group> group_label=Tom 2 RH Hit  loop_mode=one_shot  lokey=d5  hikey=d#5
+pan_oncc21=100  pan_curvecc21=1
+<region> sample=tom2RH01-norm.wav  lovel=1    hivel=59
+<region> sample=tom2RH02-norm.wav  lovel=60   hivel=65
+<region> sample=tom2RH03-norm.wav  lovel=66   hivel=70
+<region> sample=tom2RH04-norm.wav  lovel=71   hivel=75
+<region> sample=tom2RH05-norm.wav  lovel=76   hivel=80
+<region> sample=tom2RH06-norm.wav  lovel=81   hivel=85
+<region> sample=tom2RH07-norm.wav  lovel=86   hivel=90
+<region> sample=tom2RH08-norm.wav  lovel=91   hivel=95
+<region> sample=tom2RH09-norm.wav  lovel=96   hivel=99
+<region> sample=tom2RH10-norm.wav  lovel=100  hivel=104
+<region> sample=tom2RH11-norm.wav  lovel=105  hivel=108
+<region> sample=tom2RH12-norm.wav  lovel=109  hivel=112
+<region> sample=tom2RH13-norm.wav  lovel=113  hivel=116
+<region> sample=tom2RH14-norm.wav  lovel=117  hivel=120
+<region> sample=tom2RH15-norm.wav  lovel=121  hivel=127

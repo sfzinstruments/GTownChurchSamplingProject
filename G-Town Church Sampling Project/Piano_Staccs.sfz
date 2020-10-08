@@ -1,0 +1,65 @@
+<control>
+default_path=samples/Piano_Staccs/
+
+<global> loop_mode=one_shot  note_polyphony=1
+
+<group> lovel=2  hivel=104  group_volume=-2
+<region> sample=grand p a1.wav   key=a1 
+<region> sample=grand p a#1.wav  key=a#1
+<region> sample=grand p b1.wav   key=b1 
+<region> sample=grand p c2.wav   key=c2 
+<region> sample=grand p c#2.wav  key=c#2
+<region> sample=grand p d2.wav   key=d2 
+<region> sample=grand p d#2.wav  key=d#2  tune=8
+<region> sample=grand p e2.wav   key=e2 
+<region> sample=grand p f2.wav   key=f2 
+<region> sample=grand p f#2.wav  key=f#2
+<region> sample=grand p g2.wav   key=g2 
+<region> sample=grand p g#2.wav  key=g#2
+<region> sample=grand p a2.wav   key=a2 
+<region> sample=grand p a#2.wav  key=a#2
+<region> sample=grand p b2.wav   key=b2 
+<region> sample=grand p c3.wav   key=c3 
+<region> sample=grand p c#3.wav  key=c#3
+<region> sample=grand p d3.wav   key=d3 
+<region> sample=grand p d#3.wav  key=d#3
+<region> sample=grand p e3.wav   key=e3 
+<region> sample=grand p f3.wav   key=f3 
+<region> sample=grand p f#3.wav  key=f#3
+<region> sample=grand p g3.wav   key=g3   tune=21
+<region> sample=grand p g#3.wav  key=g#3  tune=11
+<region> sample=grand p a3.wav   key=a3 
+<region> sample=grand p a#3.wav  key=a#3
+<region> sample=grand p b3.wav   key=b3 
+<region> sample=grand p c4.wav   key=c4 
+
+
+<group> lovel=105  hivel=127
+<region> sample=grand f a1.wav   key=a1 
+<region> sample=grand f a#1.wav  key=a#1
+<region> sample=grand f b1.wav   key=b1 
+<region> sample=grand f c2.wav   key=c2 
+<region> sample=grand f c#2.wav  key=c#2
+<region> sample=grand f d2.wav   key=d2 
+<region> sample=grand f d#2.wav  key=d#2  tune=8
+<region> sample=grand f e2.wav   key=e2 
+<region> sample=grand f f2.wav   key=f2 
+<region> sample=grand f f#2.wav  key=f#2
+<region> sample=grand f g2.wav   key=g2 
+<region> sample=grand f g#2.wav  key=g#2
+<region> sample=grand f a2.wav   key=a2 
+<region> sample=grand f a#2.wav  key=a#2
+<region> sample=grand f b2.wav   key=b2 
+<region> sample=grand f c3.wav   key=c3 
+<region> sample=grand f c#3.wav  key=c#3
+<region> sample=grand f d3.wav   key=d3 
+<region> sample=grand f d#3.wav  key=d#3
+<region> sample=grand f e3.wav   key=e3 
+<region> sample=grand f f3.wav   key=f3 
+<region> sample=grand f f#3.wav  key=f#3
+<region> sample=grand f g3.wav   key=g3   tune=21
+<region> sample=grand f g#3.wav  key=g#3  tune=11
+<region> sample=grand f a3.wav   key=a3 
+<region> sample=grand f a#3.wav  key=a#3
+<region> sample=grand f b3.wav   key=b3 
+<region> sample=grand f c4.wav   key=c4 

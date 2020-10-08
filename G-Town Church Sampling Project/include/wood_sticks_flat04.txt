@@ -1,0 +1,4 @@
+<region> sample=flat0401.wav  lovel=1    hivel=90
+<region> sample=flat0402.wav  lovel=91   hivel=107
+<region> sample=flat0403.wav  lovel=108  hivel=121
+<region> sample=flat0404.wav  lovel=122  hivel=127

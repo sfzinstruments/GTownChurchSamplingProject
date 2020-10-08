@@ -1,0 +1,1 @@
+<group> sw_lolast=c2  sw_hilast=d2  transpose=-12  loop_mode=no_loop  amplitude_oncc1=100  ampeg_release=10

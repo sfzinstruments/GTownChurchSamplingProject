@@ -1,0 +1,53 @@
+<control>
+default_path=samples/Egg/
+
+<global> amp_veltrack=98
+
+<group> group_label=Individual Shake Samples  loop_mode=one_shot
+
+<region> sample=egg01.wav  key=c2
+<region> sample=egg02.wav  key=d2
+<region> sample=egg03.wav  key=e2
+<region> sample=egg04.wav  key=f2
+<region> sample=egg05.wav  key=g2
+<region> sample=egg06.wav  key=a2
+<region> sample=egg07.wav  key=b2
+<region> sample=egg08.wav  key=c3
+<region> sample=egg09.wav  key=d3
+<region> sample=egg10.wav  key=e3
+<region> sample=egg11.wav  key=f3
+<region> sample=egg12.wav  key=g3
+<region> sample=egg13.wav  key=a3
+<region> sample=egg14.wav  key=b3
+
+
+<group> group_label=Shake Soft (multisample)  loop_mode=one_shot  lokey=c4  hikey=d4  pitch_keytrack=0  seq_length=2  group_volume=-10
+
+<region> sample=egg07.wav  lovel=1    hivel=47   seq_position=1  volume=21.627
+<region> sample=egg10.wav  lovel=1    hivel=47   seq_position=2  volume=20.778
+<region> sample=egg06.wav  lovel=48   hivel=87   seq_position=1  volume=19.558
+<region> sample=egg02.wav  lovel=48   hivel=87   seq_position=2  volume=17.464
+<region> sample=egg03.wav  lovel=88   hivel=127  seq_position=1  volume=15.251
+<region> sample=egg13.wav  lovel=88   hivel=127  seq_position=2  volume=17.105
+
+
+<group> group_label=Shake Hard (multisample)  loop_mode=one_shot  lokey=e4  hikey=f4  pitch_keytrack=0  seq_length=2
+
+<region> sample=egg14.wav  lovel=1    hivel=37   seq_position=1  volume=17.76
+<region> sample=egg12.wav  lovel=1    hivel=37   seq_position=2  volume=16.041
+<region> sample=egg05.wav  lovel=38   hivel=67   seq_position=1  volume=9.938
+<region> sample=egg09.wav  lovel=38   hivel=67   seq_position=2  volume=6.42
+<region> sample=egg04.wav  lovel=68   hivel=97   seq_position=1  volume=2.517
+<region> sample=egg08.wav  lovel=68   hivel=97   seq_position=2  volume=4.007
+<region> sample=egg01.wav  lovel=98   hivel=127  seq_position=1  volume=0.063
+<region> sample=egg11.wav  lovel=98   hivel=127  seq_position=2  volume=3.225
+
+
+<group> group_label=Misc  ampeg_release=0.7
+
+<region> sample=eggfx01.wav     key=g4
+<region> sample=eggfx02.wav     key=a4
+<region> sample=eggfx03.wav     key=b4
+<region> sample=eggloop01.wav   key=c5
+<region> sample=eggshake01.wav  key=d5
+<region> sample=eggshake02.wav  key=e5

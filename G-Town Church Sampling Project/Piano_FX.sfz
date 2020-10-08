@@ -1,0 +1,15 @@
+<control>
+default_path=samples/Piano_FX/
+
+<global> amp_veltrack=98.5
+
+<group> ampeg_release=1
+
+<region> sample=piano scratch 01.wav       key=c4
+<region> sample=piano scratch 02.wav       key=d4
+<region> sample=piano scratch 03.wav       key=e4
+<region> sample=piano scratch fast 01.wav  key=f4
+<region> sample=piano scratch fast 02.wav  key=g4
+<region> sample=piano scratch fast 03.wav  key=a4
+<region> sample=piano scratch fast 04.wav  key=b4
+<region> sample=piano scratch fast 05.wav  key=c5
